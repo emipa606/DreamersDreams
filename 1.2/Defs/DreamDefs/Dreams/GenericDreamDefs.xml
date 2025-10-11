@@ -13,8 +13,8 @@
       <li>Psychopath</li>
     </nullifyingTraits>
   </DreamersDream.DreamDef>
-
-  <DreamersDream.DreamDef ParentName="LegendaryDream"> <!--HAS TRIBAL ALTERNATIVE -->
+  <DreamersDream.DreamDef ParentName="LegendaryDream">
+    <!--HAS TRIBAL ALTERNATIVE -->
     <defName>DreamHeroicDefenceOffworlder</defName>
     <label>Dreamt about heroic defence</label>
     <description>I had to defend our colony against waves and waves of upcoming serpent-like monsters while also sending units to enable some form of passage. It took place on a fiery planet, lots of lava, lots of fire and the sky was red. It went on for quite a while but in the end the monsters managed to open the passage. I boarded a shuttle and headed towards a strange gate which allowed for connection of our world to the abyss. While trying to do that I met my friend who was apparently trapped on this shuttle. I freed him and went to close the gate. Somehow, I succeeded. Everyone cheered, calling me a hero, and went on to have a party. I recognized most of my friends, even old friends who I have lost contact with long ago. Everyone was dancing, music played and I got to dance with someone I love...</description>
@@ -29,8 +29,8 @@
       <li>colonist</li>
     </requiredStanding>
   </DreamersDream.DreamDef>
-
-  <DreamersDream.DreamDef ParentName="LegendaryDream"> <!--HAS OFFWORLD ALTERNATIVE -->
+  <DreamersDream.DreamDef ParentName="LegendaryDream">
+    <!--HAS OFFWORLD ALTERNATIVE -->
     <defName>DreamHeroicDefenceTribal</defName>
     <label>Dreamt about heroic defence</label>
     <description>I had to defend our colony against waves and waves of upcoming serpent-like monsters while also sending units to enable some form of passage. It took place on a fiery planet, lots of lava, lots of fire and the sky was red. It went on for quite a while but in the end the monsters managed to open the passage. I boarded a shuttle and headed towards a strange gate which allowed for connection of our world to the abyss. While trying to do that I met my friend who was apparently trapped on this shuttle. I freed him and went to close the gate. Somehow, I succeeded. Everyone cheered, calling me a hero, and went on to have a party. I recognized most of my friends, even old friends who I have lost contact with long ago. Everyone was dancing, music played and I got to dance with someone I love...</description>
@@ -45,21 +45,18 @@
       <li>colonist</li>
     </requiredStanding>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="LegendaryDream">
     <defName>DreamObtainingGodhood</defName>
     <label>Dreamt about godhood</label>
     <description>Everything was to my command. Mountains and oceans, birds and fish, good people and bad people... Yet, I did not want to disturb that chaos. I watched and laughed.</description>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="LegendaryDream">
     <defName>DreamMeetingAncientGod</defName>
     <label>Dreamt about meeting ancient god</label>
     <description>I was sitting on a grassy hill surrounded by mountains full of trees and green white grass. After a while, a tall old man with round hat and staff approached me. There were two crows sitting on the staff. He said "look" and pointed to the horizon and then an old viking came up right next to me leaning on a tree with a battered shield and said to me "Grunts would be pigs if they knew what the old boar was suffering". Out of nowhere the trees and hills were set on fire. The old man looked at me and said "Valhalla is coming for you. Don't forget me."</description>
     <dreamedBy>SghHanzMullerSW</dreamedBy>
   </DreamersDream.DreamDef>
-
-<!--EPIC-->
+  <!--EPIC-->
   <DreamersDream.DreamDef ParentName="EpicDream">
     <defName>DreamOffworldHitman</defName>
     <label>Dreamt about being a hitman</label>
@@ -69,8 +66,7 @@
       <li>offworld</li>
     </requiredOneOfBackstory>
   </DreamersDream.DreamDef>
-  
-  <DreamersDream.DreamDef ParentName="EpicDream"> 
+  <DreamersDream.DreamDef ParentName="EpicDream">
     <defName>DreamSpaceshipHorror</defName>
     <label>Dreamt about a space ship</label>
     <description>I woke up on a space ship. We were all supposed to be in cryo, but as we slept, someone was preforming nasty experiments on the rest of us. It happened when my pod was breached by some horror intent on eating me. I barehanded beat up and choked it to death as it licked me with seething tentacles spilling out its mouth in a last ditch effort to make me turn away in disgust. As I looked around I saw my comrades in various states of alien transformation, I immediately recalled we were headed to "New Earth," on a colony ship. I found a futuristic axetool powered by some uranium crystal; a rotator caused the blade on the head to spin fast enough to turn into some kinda plasma that enabled me to cut into sealed chambers. The ship itself was made of some rusty brown metal, the floors were completely covered in blood and weird molds pulsated from half-eaten pools of human. I was completely naked and had slipped and slid on various occasions as I cleared the ship looking for survivors.</description>
@@ -79,20 +75,18 @@
       <li>offworld</li>
     </requiredOneOfBackstory>
   </DreamersDream.DreamDef>
-  
   <DreamersDream.DreamDef ParentName="EpicDream">
     <defName>DreamLucid</defName>
     <label>Had lucid dream</label>
-    <description>I realised that I'm in the dream so I could do anything I want! If only I could do it more often...</description> <!-- let's make something more with lucid dreams -->
+    <description>I realised that I'm in the dream so I could do anything I want! If only I could do it more often...</description>
+    <!-- let's make something more with lucid dreams -->
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="EpicDream">
     <defName>DreamAnimalCompetition</defName>
     <label>Dreamt about animal competition</label>
     <description>I joined a dog-sledding competition, which was a racetrack where the dogs ski around a track for several laps. I cheated by putting on my dog's uniform and entering the race as my dog (and giving my dog my clothes so he can look like me cheering him on). I went through the whole race, skiing stiffly to look like a dog skiing, but at the very end I felt guilty about cheating and bumped into a pole so I'd get second place. The 7' tall Stellarch knew that I cheated and got back at me by standing very close to me and making me look short.</description>
     <dreamedBy>Mitroll</dreamedBy>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="EpicDream">
     <defName>DreamFightingAliens</defName>
     <label>Dreamt about fighting with aliens</label>
@@ -101,7 +95,6 @@
       <li>tribal</li>
     </conflictingBackstory>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="EpicDream">
     <defName>DreamFireTornado</defName>
     <label>Dreamt about fire tornado</label>
@@ -111,7 +104,6 @@
       <li>tribal</li>
     </requiredBackstory>
   </DreamersDream.DreamDef>
-  
   <DreamersDream.DreamDef ParentName="EpicDream">
     <defName>DreamStutteringKid</defName>
     <label>Have you ever had a dream...?</label>
@@ -119,7 +111,6 @@
     <dreamedBy>Joseph Cirkiel</dreamedBy>
     <minMood>happy</minMood>
   </DreamersDream.DreamDef>
-
   <!--AMAZING-->
   <DreamersDream.DreamDef ParentName="AmazingDream">
     <defName>DreamBeingAnimal</defName>
@@ -134,13 +125,11 @@
       <li>tribal</li>
     </requiredOneOfBackstory>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="AmazingDream">
     <defName>DreamSnowMountain</defName>
     <label>Dreamt about snow mountain</label>
     <description>From the mountaintop I could see the whole world. All the cities and forests. It was so cold though and I could barely breathe, yet I felt calm. I sat down and enjoyed the view...</description>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="AmazingDream">
     <defName>DreamWondersLight</defName>
     <label>Dreamt about wonders</label>
@@ -149,19 +138,16 @@
       <li>TorturedArtist</li>
     </requiredTraits>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="AmazingDream">
     <defName>DreamGivingSpeech</defName>
     <label>Dreamt about giving speech</label>
     <description>Everyone looked at me but I was not stressed. I started talking about ideals and principles of life and people listened to me with interest. Before the dream ended I received standing ovations!</description>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="AmazingDream">
     <defName>DreamGoodJob</defName>
     <label>Dreamt about doing a good job</label>
     <description>I was tasked to build strange shapes which looked like four triangles connected side by side. I gathered immense amounts of stone and helped little people finish the glimmering construction. The little humans were so happy with my work that they decided to place their kings there after death!</description>
   </DreamersDream.DreamDef>
-
   <!--EXCITING-->
   <DreamersDream.DreamDef ParentName="ExcitingDream">
     <defName>DreamRacingGame</defName>
@@ -175,7 +161,6 @@
       <li>tribal</li>
     </conflictingBackstory>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="ExcitingDream">
     <defName>DreamHealthy</defName>
     <label>Dreamt about being healthy</label>
@@ -184,7 +169,6 @@
       <li>wounded</li>
     </requiredBodyStates>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="ExcitingDream">
     <defName>DreamNoodleBath</defName>
     <label>Dreamt about bathing in noodles</label>
@@ -194,13 +178,11 @@
       <li>fed</li>
     </requiredOneOfBodyStates>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="ExcitingDream">
     <defName>DreamFlying</defName>
     <label>Dreamt about flying</label>
     <description>I was flying in my dream dream! It was an amazing experience. I just wanted to keep going...</description>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="ExcitingDream">
     <defName>DreamGodlyTrees</defName>
     <label>Dreamt about godly trees</label>
@@ -210,7 +192,6 @@
       <li>tribal</li>
     </requiredOneOfBackstory>
   </DreamersDream.DreamDef>
-  
   <!--PLEASANT-->
   <DreamersDream.DreamDef ParentName="PleasantDream">
     <defName>DreamYoghurtPool</defName>
@@ -221,25 +202,21 @@
       <li>tribal</li>
     </conflictingBackstory>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="PleasantDream">
     <defName>DreamChildhoodHouse</defName>
     <label>Dreamt about childhood</label>
     <description>I was back in my childhood house! I've regained connection with some of my best memories.</description>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="PleasantDream">
     <defName>DreamOceanBeach</defName>
     <label>Dreamt about ocean beach</label>
     <description>Cold drinks and sand. Yep, I could stay there forever.</description>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="PleasantDream">
     <defName>DreamNice</defName>
     <label>Dreamt about something nice</label>
     <description>I had a pleasant dream, but I forgot it the moment I woke up...</description>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="PleasantDream">
     <defName>DreamPizzaFriends</defName>
     <label>Dreamt about pizza</label>
@@ -252,7 +229,6 @@
       <li>hasFriend</li>
     </requiredOneOfMindStates>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="PleasantDream">
     <defName>DreamCheese</defName>
     <label>Dreamt about cheese</label>
@@ -262,15 +238,13 @@
       <li>Cannibal</li>
     </nullifyingTraits>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="PleasantDream">
     <defName>DreamPlayingGuitar</defName>
     <label>Dreamt about playing guitar</label>
     <description>I was playing a beautiful song on guitar in a sun room with bright light coming from above. I was alone, but it was peaceful. I've never even played guitar.</description>
     <dreamedBy>ryanizawsum</dreamedBy>
   </DreamersDream.DreamDef>
-  
-   <!--INFERNAL-->
+  <!--INFERNAL-->
   <DreamersDream.DreamDef ParentName="InfernalDream">
     <defName>DreamDarkFigures</defName>
     <label>Dreamt about dark figures</label>
@@ -280,13 +254,11 @@
       <li>prisoner</li>
     </conflictingStanding>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="InfernalDream">
     <defName>DreamMoonCrash</defName>
     <label>Dreamt about moon crash</label>
     <description>I awoke in my room. Felt a bit thirsty so I went to the kitchen to drink some water. Went outside to get some fresh air and there was an enormous moon up in the sky. Everything was shaking, almost like an earthquake was terrorizing the area. Orange light illuminated the surroundings. Buildings were floating here and there, like gravity had been turned off. The Moon came closer. The shaking got stronger. I heard screaming. Then some odd force hit me and I collapsed.</description>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="InfernalDream">
     <defName>DreamSevenLives</defName>
     <label>Dreamt about tragic lives and deaths</label>
@@ -297,14 +269,12 @@
       <li>Bloodlust</li>
     </nullifyingTraits>
   </DreamersDream.DreamDef>
-
-<!--TERRORISING-->
+  <!--TERRORISING-->
   <DreamersDream.DreamDef ParentName="TerrorisingDream">
     <defName>DreamWorldFellApart</defName>
     <label>Dreamt about Armageddon</label>
     <description>I dreamt that the whole world fell apart. It was a disaster.</description>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="TerrorisingDream">
     <defName>DreamCorpsesPile</defName>
     <label>Dreamt about pile of corpses</label>
@@ -315,13 +285,11 @@
       <li>Cannibal</li>
     </nullifyingTraits>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="TerrorisingDream">
     <defName>DreamJarception</defName>
     <label>Dreamt about brain in a jar</label>
     <description>I was in the middle of some kind of secret archotech laboratory. All surfaces were sterile and perfectly clean. I explored the place for a while until I reached a warehouse which looked like it was hundreds of miles long. On every shelf there was a jar with a brain, connected to a screen. I watched what was happening on those screens... Someone was cooking a meal... Someone else was chased by gangsters... Another person got some lovin'... but then I saw a truly extraordinary screen. It showed the perspective of a man in a huge warehouse filled with jars with brains...</description>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="TerrorisingDream">
     <defName>DreamMeatLocker</defName>
     <label>Dreamt about meat locker</label>
@@ -335,7 +303,6 @@
       <li>killer</li>
     </requiredMindStates>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="TerrorisingDream">
     <defName>DreamTikiSpider</defName>
     <label>Dreamt about tiki-spider</label>
@@ -345,14 +312,12 @@
       <li>tribal</li>
     </requiredBackstory>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="TerrorisingDream">
     <defName>DreamMazeEscape</defName>
     <label>Dreamt about escaping a maze</label>
     <description>I was running on what looked like hard packed dirt with little bits of gravel and grass. As I ran I would often times have to make decisions on where to run, left or right, because the walls that blocked the way were clown and doll heads. I had to run a maze that was made out of a clown and doll head, while something chased me. I woke up and was in a dry sweat and didn't want to open my eyes at all.</description>
     <dreamedBy>NylonWorms</dreamedBy>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="TerrorisingDream">
     <defName>DreamFriendTripFight</defName>
     <label>Dreamt about fight among friends</label>
@@ -361,12 +326,11 @@
     <requiredOneOfBackstory>
       <li>offworld</li>
       <li>outlander</li>
-     </requiredOneOfBackstory>
+    </requiredOneOfBackstory>
     <requiredMindStates>
       <li>hasFriend</li>
     </requiredMindStates>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="TerrorisingDream">
     <defName>DreamWerewolfMarriage</defName>
     <label>Dreamt about unfortunate marriage</label>
@@ -376,8 +340,7 @@
       <li>hasEx</li>
     </requiredOneOfMindStates>
   </DreamersDream.DreamDef>
-
-<!--FRIGHTENING-->
+  <!--FRIGHTENING-->
   <DreamersDream.DreamDef ParentName="FrighteningDream">
     <defName>DreamAbandonedMaze</defName>
     <label>Dreamt about abandoned maze</label>
@@ -387,7 +350,6 @@
       <li>offworld</li>
     </requiredOneOfBackstory>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="FrighteningDream">
     <defName>DreamLittleDwarf</defName>
     <label>Dreamt about a little dwarf</label>
@@ -399,12 +361,12 @@
       <li>hasFriend</li>
     </requiredOneOfMindStates>
   </DreamersDream.DreamDef>
-
-  <DreamersDream.DreamDef ParentName="FrighteningDream"> <!--HAS TRIBAL ALTERNATIVE -->
+  <DreamersDream.DreamDef ParentName="FrighteningDream">
+    <!--HAS TRIBAL ALTERNATIVE -->
     <defName>DreamWarhead</defName>
     <label>Dreamt about destruction of colony</label>
     <description>I was walking away from the colony. I  felt a strong sense of urgency, that I needed to get away, yet I couldn't figure out why. As I walked up to the hill overlooking the colony , I started to calm. As I reached the top, I sat down upon the grass under the trees and watched calmly as a small figure fell down from the boundless, blue sky. Only then, as the antigrain warhead went off did I understand why I had felt that urgency.</description>
-    <dreamedBy>Wight</dreamedBy> 
+    <dreamedBy>Wight</dreamedBy>
     <conflictingBackstory>
       <li>tribal</li>
     </conflictingBackstory>
@@ -412,8 +374,8 @@
       <li>colonist</li>
     </requiredStanding>
   </DreamersDream.DreamDef>
-
-  <DreamersDream.DreamDef ParentName="FrighteningDream"> <!--HAS NON-TRIBAL ALTERNATIVE -->
+  <DreamersDream.DreamDef ParentName="FrighteningDream">
+    <!--HAS NON-TRIBAL ALTERNATIVE -->
     <defName>DreamWarheadTribal</defName>
     <label>Dreamt about destruction of tribe</label>
     <description>I was walking away from the camping grounds. I  felt a strong sense of urgency, that I needed to get away, yet I couldn't figure out why. As I walked up to the hill overlooking the tribe, I started to calm. As I reached the top, I sat down upon the grass under the trees and watched calmly as a small figure fell down from the boundless, blue sky. Only then, as the gigantic blood machine went approached did I understand why I had felt that urgency.</description>
@@ -422,7 +384,6 @@
       <li>tribal</li>
     </requiredOneOfBackstory>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="FrighteningDream">
     <defName>DreamKillingFavoriteAnimal</defName>
     <label>Dreamt about killing my favourite animal</label>
@@ -433,8 +394,8 @@
       <li>Bloodlust</li>
     </nullifyingTraits>
   </DreamersDream.DreamDef>
-
-  <DreamersDream.DreamDef ParentName="FrighteningDream"> <!--HAS TRIBAL ALTERNATIVE -->
+  <DreamersDream.DreamDef ParentName="FrighteningDream">
+    <!--HAS TRIBAL ALTERNATIVE -->
     <defName>DreamDistantDanger</defName>
     <label>Dreamt about distant danger</label>
     <description>I had a dream in which I walked around the colony. After a few moments I realised that my head was rolling down the hill away from our home. I chased it until it stopped. After finally regaining my precious head, I looked around. Everything was burned to the ground and the only sounds were coming from strange machinery spitting out ancient mechanoids...</description>
@@ -442,8 +403,8 @@
       <li>tribal</li>
     </conflictingBackstory>
   </DreamersDream.DreamDef>
-  
-  <DreamersDream.DreamDef ParentName="FrighteningDream"> <!--HAS NON-TRIBAL ALTERNATIVE -->
+  <DreamersDream.DreamDef ParentName="FrighteningDream">
+    <!--HAS NON-TRIBAL ALTERNATIVE -->
     <defName>DreamDistantDangerTribal</defName>
     <label>Dreamt about distant danger</label>
     <description>I had a dream in which I walked around the village. After a few moments I realised that my head was rolling down the hill away from our home. I chased it until it stopped. After finally regaining my precious head, I looked around. Everything was burned to the ground and the only sounds were coming from strange machinery spitting out blood machines...</description>
@@ -451,7 +412,6 @@
       <li>tribal</li>
     </requiredBackstory>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="FrighteningDream">
     <defName>DreamMurderingCloseOne</defName>
     <label>Dreamt about killing a close one</label>
@@ -464,7 +424,6 @@
       <li>hasFriend</li>
     </requiredOneOfMindStates>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="FrighteningDream">
     <defName>DreamCannibalismBad</defName>
     <label>Dreamt about eating humans</label>
@@ -475,7 +434,6 @@
       <li>Cannibal</li>
     </nullifyingTraits>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="FrighteningDream">
     <defName>DreamFightingZombies</defName>
     <label>Dreamt about fighting zombies</label>
@@ -485,7 +443,6 @@
       <li>prisoner</li>
     </conflictingStanding>
   </DreamersDream.DreamDef>
-  
   <DreamersDream.DreamDef ParentName="FrighteningDream">
     <defName>DreamBanditCowboy</defName>
     <label>Dreamt about bandit cowboy</label>
@@ -495,13 +452,11 @@
       <li>tribal</li>
     </conflictingBackstory>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="FrighteningDream">
     <defName>DreamStealingHoney</defName>
     <label>Dreamt about stealing honey</label>
     <description>I was in some kind of magical forest. After walking a few miles I noticed a big bee hive. I was hungry, so I put my hand in it to snatch some honey but when I took it out there was no honey... only wiggling maggots.</description>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="FrighteningDream">
     <defName>DreamOrganSteal</defName>
     <label>Dreamt about surgery</label>
@@ -511,7 +466,6 @@
       <li>slave</li>
     </requiredOneOfStanding>
   </DreamersDream.DreamDef>
-  
   <DreamersDream.DreamDef ParentName="FrighteningDream">
     <defName>DreamSlavePunishment</defName>
     <label>Dreamt about punishment</label>
@@ -520,27 +474,23 @@
       <li>slave</li>
     </requiredOneOfStanding>
   </DreamersDream.DreamDef>
-  
-<!--DISTURBING-->
+  <!--DISTURBING-->
   <DreamersDream.DreamDef ParentName="DisturbingDream">
     <defName>DreamBeingChased</defName>
     <label>Dreamt about being chased</label>
     <description>Something was chasing me but I couldn't run!</description>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="DisturbingDream">
     <defName>DreamPastEvent</defName>
     <label>Dreamt about event from the past</label>
     <description>I had a dream about a stressful event from my past. I would rather not be reminded of it.</description>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="DisturbingDream">
     <defName>DreamEatenBySnake</defName>
     <label>Dreamt about being devoured by snake</label>
     <description>I was slowly being devoured by a gigantic snake!</description>
     <dreamedBy>Djura</dreamedBy>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="DisturbingDream">
     <defName>DreamMurderBad</defName>
     <label>Dreamt about killing</label>
@@ -551,7 +501,6 @@
       <li>Cannibal</li>
     </nullifyingTraits>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="DisturbingDream">
     <defName>DreamFed</defName>
     <label>Dreamt about starvation</label>
@@ -560,7 +509,6 @@
       <li>fed</li>
     </requiredOneOfBodyStates>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="DisturbingDream">
     <defName>DreamImprisoned</defName>
     <label>Dreamt about being in prison</label>
@@ -570,22 +518,20 @@
       <li>prisoner</li>
     </conflictingStanding>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="DisturbingDream">
     <defName>DreamChildhoodBad</defName>
     <label>Dreamt about childhood</label>
     <description>I relived some of the worst moments from my childhood.</description>
-  <!--  <requiredOneOfBackstory>
+    <!--  <requiredOneOfBackstory>
       <li>pirate</li>
     </requiredOneOfBackstory> the user won't make that correletion and it is very generic dream so let's delete that-->
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="DisturbingDream">
     <defName>DreamInsectsBad</defName>
     <label>Dreamt about insects</label>
     <description>They were crawling everywhere. Millions of bugs and worms were chasing me. At least I woke up the moment they got me...</description>
-  </DreamersDream.DreamDef> <!-- needs check for precept for bugs -->
-
+  </DreamersDream.DreamDef>
+  <!-- needs check for precept for bugs -->
   <DreamersDream.DreamDef ParentName="DisturbingDream">
     <defName>DreamInjury</defName>
     <label>Dreamt about injury</label>
@@ -594,16 +540,15 @@
       <li>healthy</li>
     </requiredBodyStates>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="DisturbingDream">
     <defName>DreamSocialExclusion</defName>
     <label>Dreamt about social exclusion</label>
     <description>I was excluded from my group because I was scared to snort Yayo... Do we even have any Yayo?</description>
-    <requiredTraits> <!--we need to add teetotaler check here (can't be done this way) -->
+    <requiredTraits>
+      <!--we need to add teetotaler check here (can't be done this way) -->
       <li>Wimp</li>
     </requiredTraits>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="DisturbingDream">
     <defName>DreamZombieTrucks</defName>
     <label>Dreamt about zombie trucks</label>
@@ -612,7 +557,6 @@
       <li>tribal</li>
     </conflictingBackstory>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="DisturbingDream">
     <defName>DreamGettingExecuted</defName>
     <label>Dreamt about being executed</label>
@@ -622,7 +566,6 @@
       <li>guilty</li>
     </requiredMindStates>
   </DreamersDream.DreamDef>
-  
   <DreamersDream.DreamDef ParentName="DisturbingDream">
     <defName>DreamKittenCollecting</defName>
     <label>Dreamt about kittens</label>
@@ -635,7 +578,6 @@
       <li>Psychopath</li>
     </nullifyingTraits>
   </DreamersDream.DreamDef>
-  
   <DreamersDream.DreamDef ParentName="DisturbingDream">
     <defName>DreamArrakisVision</defName>
     <label>Dreamt about girl on desert planet</label>
@@ -644,27 +586,23 @@
       <li>offworld</li>
     </requiredOneOfBackstory>
   </DreamersDream.DreamDef>
-  
-<!--UNPLEASANT-->
+  <!--UNPLEASANT-->
   <DreamersDream.DreamDef ParentName="UnpleasantDream">
     <defName>DreamTornadoFlight</defName>
     <label>Dreamt about tornado</label>
     <description>I had a dream where I was in a brick building and it got hit by a tornado. It pulled the building apart and picked me up into the air! Somehow, I did not get hurt.</description>
     <dreamedBy>Gallivant</dreamedBy>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="UnpleasantDream">
     <defName>DreamDontRemember</defName>
     <label>Can't recall a bad dream</label>
     <description>I dreamt about something upsetting but I don't really remember what it was...</description>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="UnpleasantDream">
     <defName>DreamSillyThingsBad</defName>
     <label>Dreamt about silly things</label>
     <description>Dancing nuns, walking sofas, talking plants... I dreamt about weird things, nothing in particular but it didn't feel good.</description>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="UnpleasantDream">
     <defName>DreamExPartner</defName>
     <label>Dreamt about my ex partner</label>
@@ -673,7 +611,6 @@
       <li>hasEx</li>
     </requiredOneOfMindStates>
   </DreamersDream.DreamDef>
-
   <DreamersDream.DreamDef ParentName="UnpleasantDream">
     <defName>DreamNudeBad</defName>
     <label>Dreamt about being nude</label>
@@ -685,8 +622,7 @@
       <li>Nudist</li>
     </nullifyingTraits>
   </DreamersDream.DreamDef>
-
-  <DreamersDream.DreamDef ParentName="UnpleasantDream"> 
+  <DreamersDream.DreamDef ParentName="UnpleasantDream">
     <defName>DreamFlamingoInvasion</defName>
     <label>Dreamt about flamingos invasion</label>
     <description>The world got invaded by pink birds. The birds had kevlar helmets, assault rifles, demonic red eyes, and they were sometimes doing drill movements.</description>
@@ -694,9 +630,9 @@
     <conflictingBackstory>
       <li>tribal</li>
     </conflictingBackstory>
-  </DreamersDream.DreamDef> <!-- HAS TRIBAL ALTERNATIVE -->
-  
-  <DreamersDream.DreamDef ParentName="UnpleasantDream"> 
+  </DreamersDream.DreamDef>
+  <!-- HAS TRIBAL ALTERNATIVE -->
+  <DreamersDream.DreamDef ParentName="UnpleasantDream">
     <defName>DreamFlamingoInvasionTribal</defName>
     <label>Dreamt about flamingos invasion</label>
     <description>The world got invaded by pink birds. The birds had inpenetrable by our weapons armour. They were practicing odd war tactics.</description>
@@ -704,8 +640,8 @@
     <requiredBackstory>
       <li>tribal</li>
     </requiredBackstory>
-  </DreamersDream.DreamDef> <!-- HAS NON-TRIBAL ALTERNATIVE -->
-
+  </DreamersDream.DreamDef>
+  <!-- HAS NON-TRIBAL ALTERNATIVE -->
   <DreamersDream.DreamDef ParentName="UnpleasantDream">
     <defName>DreamMindControl</defName>
     <label>Dreamt about being mind controlled</label>

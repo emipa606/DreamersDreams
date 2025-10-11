@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
   <identifier>DreamersDreams</identifier>
-  <version>2.3.6</version>
-  <showCrossPromotions>true</showCrossPromotions>
-  <manifestUri>https://raw.githubusercontent.com/IwoRosiak/Holsters/main/About/Manifest.xml</manifestUri>
-  <downloadUri>https://github.com/IwoRosiak/DreamersDreams/releases</downloadUri>
+  <version>1.6.1</version>
+  <dependencies />
+  <incompatibleWith />
+  <loadBefore />
+  <loadAfter />
+  <manifestUri>https://raw.githubusercontent.com/emipa606/DreamersDreams/master/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/emipa606/DreamersDreams/releases</downloadUri>
 </Manifest>

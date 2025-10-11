@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DrDr.DreamBy> dreamed by {0}</DrDr.DreamBy>
+  <DrDr.ExperiencingDream>{0} is experiencing {1} dream!</DrDr.ExperiencingDream>
+  <DrDr.WalkAround>{0} stood up from {1} bed and started to wander around...</DrDr.WalkAround>
+  <DrDr.Rage>{0} stood up from {1} bed and started to attack others in murderous rage!</DrDr.Rage>
+  <DrDr.Eat>{0} stood up from {1} bed and started to eat!</DrDr.Eat>
+  <DrDr.Break>{0} stood up from {1} bed and started to break everything in {1} room!</DrDr.Break>
+  <DrDr.ModActive>Mod active: {0}</DrDr.ModActive>
+  <DrDr.DefaultSettings>Default settings: {0}</DrDr.DefaultSettings>
+  <DrDr.Reset>Reset settings</DrDr.Reset>
+  <DrDr.SetNow>Set now</DrDr.SetNow>
+  <DrDr.SleepwalkingOff>Sleepwalking is turned off.</DrDr.SleepwalkingOff>
+  <DrDr.SleepwalkingOccasional>Occasional sleepwalker will sleepwalk around {0} times a year.</DrDr.SleepwalkingOccasional>
+  <DrDr.Sleepwalking>Sleepwalker will sleepwalk around {0} times a year.</DrDr.Sleepwalking>
+  <DrDr.SleepwalkingUsual>Usual occasional sleepwalker will sleepwalk around {0} times a year.</DrDr.SleepwalkingUsual>
+  <DrDr.Tags>Tags</DrDr.Tags>
+  <DrDr.Chance>Chance</DrDr.Chance>
+  <DrDr.Notify>Notify</DrDr.Notify>
+</LanguageData>

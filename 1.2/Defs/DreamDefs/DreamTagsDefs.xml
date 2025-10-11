@@ -9,7 +9,6 @@
     <moodOffset>12</moodOffset>
     <chance>5</chance>
   </DreamersDream.DreamTagDef>
-  
   <DreamersDream.DreamTagDef>
     <defName>Epic</defName>
     <label>epic</label>
@@ -17,7 +16,6 @@
     <moodOffset>8</moodOffset>
     <chance>25</chance>
   </DreamersDream.DreamTagDef>
-  
   <DreamersDream.DreamTagDef>
     <defName>Amazing</defName>
     <label>amazing</label>
@@ -25,7 +23,6 @@
     <moodOffset>6</moodOffset>
     <chance>90</chance>
   </DreamersDream.DreamTagDef>
-  
   <DreamersDream.DreamTagDef>
     <defName>Exciting</defName>
     <label>exciting</label>
@@ -33,7 +30,6 @@
     <moodOffset>5</moodOffset>
     <chance>200</chance>
   </DreamersDream.DreamTagDef>
-  
   <DreamersDream.DreamTagDef>
     <defName>Pleasant</defName>
     <label>pleasant</label>
@@ -41,7 +37,6 @@
     <moodOffset>2</moodOffset>
     <chance>500</chance>
   </DreamersDream.DreamTagDef>
-  
   <!--NEGATIVE-->
   <DreamersDream.DreamTagDef>
     <defName>HellLike</defName>
@@ -50,7 +45,6 @@
     <moodOffset>-11</moodOffset>
     <chance>5</chance>
   </DreamersDream.DreamTagDef>
-  
   <DreamersDream.DreamTagDef>
     <defName>Terrorising</defName>
     <label>terrifying</label>
@@ -58,7 +52,6 @@
     <moodOffset>-8</moodOffset>
     <chance>25</chance>
   </DreamersDream.DreamTagDef>
-  
   <DreamersDream.DreamTagDef>
     <defName>Frightening</defName>
     <label>frightening</label>
@@ -66,7 +59,6 @@
     <moodOffset>-5</moodOffset>
     <chance>90</chance>
   </DreamersDream.DreamTagDef>
-  
   <DreamersDream.DreamTagDef>
     <defName>Disturbing</defName>
     <label>disturbing</label>
@@ -74,7 +66,6 @@
     <moodOffset>-3</moodOffset>
     <chance>200</chance>
   </DreamersDream.DreamTagDef>
-  
   <DreamersDream.DreamTagDef>
     <defName>Unpleasant</defName>
     <label>unpleasant</label>
@@ -82,16 +73,12 @@
     <moodOffset>-2</moodOffset>
     <chance>500</chance>
   </DreamersDream.DreamTagDef>
-  
   <DreamersDream.DreamTagDef>
     <defName>Sleepwalk</defName>
     <label>sleepwalk</label>
     <isSpecial>false</isSpecial>
     <chance>0</chance>
   </DreamersDream.DreamTagDef>
-  
-  
-  
   <!-- <DreamersDream.DreamTagDef>
     <defName>Debug</defName>
     <label>debug</label>

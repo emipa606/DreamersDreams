@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
   <!--Legendary
   <DreamSpaceship.stages.0.label>Dreamt about tourist spaceship</DreamSpaceship.stages.0.label>
   <DreamSpaceship.stages.0.description>I was one of the high-ranking officers in white uniform. Me, and some others were on a cubical, tourist, 2 miles long spaceship. The command center was located in a tower in the middle of the ship, deep within instead of the outer shell of spacecraft. The weirdest thing was that the ship captain was a 3 feet tall rat in white uniform. Everyone respected him. One time, a canadian hockey player in his hockey uniform with the helmet on decided to visit our ship. We welcomed him aboard, and everyone was happy. While we were walking along side the footbal field, we saw a tank, and the rat was controlling it. Our rat captain pointed the tank's barrel towards the hockey player, and I had to run in front of the hockey player for it to cease fire and not shoot the hockey player. The tank stopped, and then started driving away. As it started moving backwards, we were cheering. I showed the hockey player inside the ship, where there was a ton of supermarket-like shops, one of them was hanging on the ropes. After that in some time I lost the hockey player, but then he came back, thanked me for my service and left. After a while we got news that the captain was killed in an explosion. I rushed to the top of the tower with the command center, and I entered a luxury apartament on the very top of the tower. I saw through a courner that the rat was indeed killed, but not by an explosion. We mourned his death for a while, and one of the officers of equivalent rank to mine took control, and decided to stop the tour. I told him repetitevly to bring me to my hometown because we were close to it, but he wouldn't listen.</DreamSpaceship.stages.0.description>
@@ -14,7 +13,6 @@
      
   <DreamValhalla.stages.0.label>Dreamt about meeting ancient god</DreamValhalla.stages.0.label>
   <DreamValhalla.stages.0.description>I was sitting on a grassy hill surrounded by mountains full of trees and green white grass. After a while, tall old man with round hat and staff approached me. There were two crows sitting on the staff. He said "look" and pointed to the horizon and then a old viking came up right next to me leaning on a tree with a battered shield and said to me "Grunts would be pigs if they knew what the old boar was suffering". Out of nowhere trees and hills are on fire. The old man looked at me and said "Valhalla is coming for you. Don't forget me."</DreamValhalla.stages.0.description>-->
-
   <!--Epic
   
   <LucidDream.stages.0.label>Had lucid dream</LucidDream.stages.0.label>
@@ -29,7 +27,6 @@
      
   <DreamFireTornado.stages.0.label>Dreamt about fire tornado</DreamFireTornado.stages.0.label>
   <DreamFireTornado.stages.0.description>I was wandering through a jungle until I noticed a giant fire tornado. It simply stood there, not burning anything - the ground around it was burnt and barren but around it was a lush wild, rain forest. There were some locals worshipping it. They told me that it was The Element and explained the lore of Elementals. Elements are aspects of reality that humanity sees as important and symbolic - they can be as basic as "fire" or as complicated as "chaos" or "jealousy". They are simultaneously Gods, Worlds and Hive Minds of living beings - smaller elementals that might think that they act of free will. But elementals are not free - they act as the Element as a whole wills them. This tornado of fire is a high level Elemental and it needs constant worship which the locals do in shifts. If they stop, it will spread fire all around and feed on our fear of it.</DreamFireTornado.stages.0.description>-->
-
   <!--Amazing
   
   <AnimalForestDream.stages.0.label>Dreamt about being a racoon</AnimalForestDream.stages.0.label>
@@ -49,7 +46,6 @@
        
   <DreamRaceGame.stages.0.label>Dreamt about playing racing game</DreamRaceGame.stages.0.label>
   <DreamRaceGame.stages.0.description>The archotech computer lab was cool and dark, but had a circular track around the perimeter inside. Somebody challenged me to a race, and I won!</DreamRaceGame.stages.0.description>-->
-      
   <!--Exciting
   
   <HealthyDream.stages.0.label>Dreamt about being healthy</HealthyDream.stages.0.label>
@@ -66,7 +62,6 @@
        
   <SpoonDream.stages.0.label>Dreamt about spoons</SpoonDream.stages.0.label>
   <SpoonDream.stages.0.description>I had a ridicoulus dream where I was drinking water using only spoons!</SpoonDream.stages.0.description>-->
-       
   <!--Pleasent
   
   <DreamYoghurt.stages.0.label>Dreamt about yoghurt</DreamYoghurt.stages.0.label>
@@ -92,7 +87,6 @@
       
   <DreamGuitar.stages.0.label>Dreamt about playing guitar</DreamGuitar.stages.0.label>
   <DreamGuitar.stages.0.description>I was playing a beautiful song on guitar in a sun room with bright light coming from above. I was alone, but it was peaceful. I've never even played guitar.</DreamGuitar.stages.0.description>-->
-       
   <!--PSYCHO 
   
   <DreamMurderingRival.stages.0.label>Dreamt about murdering rival</DreamMurderingRival.stages.0.label>
@@ -109,7 +103,6 @@
      
   <DreamFistFightt.stages.0.label>Dreamt about fighting</DreamFistFightt.stages.0.label>
   <DreamFistFightt.stages.0.description>Breaking their bones is not enough! Let the blood spill!</DreamFistFightt.stages.0.description>-->
-     
   <!--CANNIBAL
   
   <EatingRivalDream.stages.0.label>Dreamt about eating my rival</EatingRivalDream.stages.0.label>
@@ -120,6 +113,4 @@
      
   <DreamEatingStranger.stages.0.label>Dreamt about eating someone</DreamEatingStranger.stages.0.label>
   <DreamEatingStranger.stages.0.description>Eating a human being is simple. I used to think of it as a disgusting thing, but simply trying this delicacy proved me wrong!</DreamEatingStranger.stages.0.description>-->
-       
-  
 </LanguageData>

@@ -1,32 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Dreamer's Dreams</name>
-	<author>Iwo Rosiak</author>
-	<supportedVersions>
-    	<li>1.2</li>
-		<li>1.3</li>
-		<li>1.4</li>
-		<li>1.5</li>
+  <name>Dreamer's Dreams (Continued)</name>
+  <packageId>Mlie.DreamersDreams</packageId>
+  <author>Iwo Rosiak</author>
+  <url>https://github.com/emipa606/DreamersDreams</url>
+  <supportedVersions>
+    <li>1.2</li>
+    <li>1.3</li>
+    <li>1.4</li>
+    <li>1.5</li>
+    <li>1.6</li>
   </supportedVersions>
-	<packageId>IwoRosiak.DreamersDream</packageId>
-	<description>Thank you for downloading my mod! You are amazing!
+  <modDependencies />
+  <loadAfter />
+  <description>[img]https://i.postimg.cc/1X4HT06h/Info.png[/img]
+Update of Iwo Rosiaks mod https://steamcommunity.com/sharedfiles/filedetails/?id=2514986353
 
-To report any issues please refer to the mod page which I check every minute : )
+[img]https://i.postimg.cc/8csH3dWV/Notice.png[/img]
 
-&lt;size=22&gt;Notes:&lt;/size&gt;
-- Doesn't require a new save
+[table]
+    [tr][td][url=https://discord.gg/h5TY6DA][img]https://i.postimg.cc/T1h9SjbF/Discord.png[/img][/url][/td] [td][url=https://github.com/emipa606/DreamersDreams][img]https://i.postimg.cc/fykKF7X4/Github.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.postimg.cc/MHXD40RW/Safe-To-Add.png[/img][/td]
+        [td][img]https://i.postimg.cc/brdTM0bP/Remove-May-Work.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.postimg.cc/hvhrw8xB/Original-Description.png[/img]
+[h3]The most merciful thing in the world, I think, is the inability of the human mind to correlate all its contents.[/h3] ~ H.P. Lovecraft
 
-&lt;size=22&gt;Features:&lt;/size&gt;
-- Pawns will dream while they rest.
-- Pawns with the sleepwalker trait will occassionally sleepwalk, causing a bit of disturbances among the colony...
-- Dreams depend on personality. For example, cannibals will have more unique dreams than a normal colonist...
-- Mod settings that allow you to customise your experience.
+Every night we voyage to unknown places. Flying, laughing, running away, loving and fighting. Those memories stay with us, shape us, although we don’t remember even a fraction of them. Why would we want to deny these pleasures from our colonists? 
 
-&lt;size=22&gt;Propose a dream!&lt;/size&gt;
-Tell us about your favourite dreams (from your life :> ) and I will try to implement it into the mod :D
+Thanks to this mod, your pawns gain the ability to have nightdreams. Dreams aim to reflect the pawn’s situation and personality as chosen by our framework’s clever algorithm. Stories carried by dreams are hand-crafted by a professional writer.
 
-&lt;size=22&gt;Happy Dreaming...&lt;/size&gt;
+But stories are not the only feature of this mod. Dreams usually have a short-term effect on the pawns, but some leave long-lasting consequences. This adds a particular element of instability to your colony, as dreams can keep your colonists sane... or push them even further into madness.
 
+[h2]Amount of Dreams: 100[/h2]
 
-</description>
+[h1]Overview[/h1]
+- [b]The next time your pawn falls asleep, they will get a dream thought[/b] as seen in the Needs tab.
+- Dreams have different qualities and requirements, depending on dozens of different factors. For example, there are dreams for [b]cannibals[/b], [b]prisoners[/b], [b]widowed pawns[/b], [b]that one animal-eared humanoid race[/b], and [b]exceedingly ecstatic pawns[/b].
+- Dream changes and other features can be customised in the [b]mod settings[/b].
+- [b]Sleepwalk mechanic[/b] allows pawns to get up at night to do… well, you will see. Think twice before you allow a psychopathic cannibalistic sleepwalker into your colony... 
+
+[url=https://github.com/QarsoonMeel/DreamersDreams/projects/1]Check our GitHub[/url] for a complete list of current and planned features!
+
+[h1]Balance[/h1]
+[b]Our definition of chaos might not be the same as yours.[/b] That is why this mod ships with extensive mod settings that allow great customisation. It simply adds another element to consider when accommodating your pawns’ needs. Feel free to fine-tune dream chances to suit your playstyle.
+
+[h1]Compatibility[/h1]
+This mod can be added to existing saves without problems, but removing it might cause some issues (which are fixable most of the time). We are not currently aware of any hard incompatibilities with other mods. 
+
+It is compatible with most race mods. If some issues pop up, let us know, and we will try to patch them as soon as possible.
+
+[h1]Inspiration[/h1]
+The main inspiration for this mod are H.P. Lovecraft’s dreamland stories: [i]The Dream-Quest of Unknown Kadath[/i], [i]The Cats of Ulthar[/i], and [i]Celephaïs[/i], among others. 
+
+[h1]I want to contribute![/h1]
+[url=https://forms.gle/BmaVYS3iJQvPPr179]Click here to submit a dream[/url]
+As this mod is in active development, we always look for testers. Simply using this mod and submitting an issue or two will ensure our eternal gratitude.
+
+[b]Would you like to help develop Dreamer’s Dreams?[/b] Leave a comment, send a message to [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2514986353]Psyche[/url], or access the project on [url=https://github.com/QarsoonMeel/DreamersDreams]GitHub[/url]. That’s where all the action happens.
+You can also make a separate mod that adds your custom dreams and dream requirements to the game. A guide on how to do this will follow soon.
+
+[i]If you submit a dream idea at the link above, on the Steam Workshop, or as a GitHub Issue, you allow us to edit this dream and feature it fully or in parts in this mod, credited to your name.[/i]
+
+[h1]Join our Discord![/h1]
+I have made the Discord server available [url=https://discord.gg/bwgrM2kvnQ]here[/url]. You are welcome to report issues or propose improvements about any of my mods there :)
+
+[h1]Who made this?[/h1]
+[b]Iwo Rosiak (Psyche)[/b] - Project idea, coding, graphics, dreams
+
+[b]Kas (Brokkhouse)[/b] - Editing, dreams, concepts
+
+[b]All of you dreamers![/b] Thank you for the many, many dream ideas we have received so far. Some of you have genuinely great, disturbed minds.
+
+Have fun with our mod and happy dreaming…
+
+[h3]Wise men have interpreted dreams, and the gods have laughed.[/h3] ~ H.P. Lovecraft
+
+[img]https://i.postimg.cc/x8qR7GH9/Reporting-Issues.png[/img]
+[list]
+[*] See if the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Always post your log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url]
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
+[/list]</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
 </ModMetaData>

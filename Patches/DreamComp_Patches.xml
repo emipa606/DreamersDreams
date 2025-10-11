@@ -6,14 +6,14 @@
       <xpath>/Defs/ThingDef[@Name="BasePawn"]</xpath>
       <value>
         <comps>
-          <li Class="DreamersDream.DreamsCompProperties"/>
+          <li Class="DreamersDream.DreamsCompProperties" />
         </comps>
       </value>
     </nomatch>
     <match Class="PatchOperationAdd">
       <xpath>/Defs/ThingDef[@Name="BasePawn"]/comps</xpath>
       <value>
-        <li Class="DreamersDream.DreamsCompProperties"/>
+        <li Class="DreamersDream.DreamsCompProperties" />
       </value>
     </match>
   </Operation>
