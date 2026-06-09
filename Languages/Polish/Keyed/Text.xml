@@ -18,4 +18,5 @@
   <DrDr.Tags>Tagi</DrDr.Tags>
   <DrDr.Chance>Szansa</DrDr.Chance>
   <DrDr.Notify>Powiadomienie</DrDr.Notify>
+  <DrDr.dreamChancePerNight>Globalna szansa na sen na noc: {0}</DrDr.dreamChancePerNight>
 </LanguageData>

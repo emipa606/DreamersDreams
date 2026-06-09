@@ -1,12 +1,12 @@
-# [Dreamer's Dreams (Continued)]()
+# [Dreamer's Dreams (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3584984139)
 
-![Image](https://i.postimg.cc/1X4HT06h/Info.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of Iwo Rosiaks mod https://steamcommunity.com/sharedfiles/filedetails/?id=2514986353
 
-![Image](https://i.postimg.cc/8csH3dWV/Notice.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.postimg.cc/hvhrw8xB/Original-Description.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 ### The most merciful thing in the world, I think, is the inability of the human mind to correlate all its contents.
  ~ H.P. Lovecraft
@@ -27,8 +27,6 @@ But stories are not the only feature of this mod. Dreams usually have a short-te
 - Dream changes and other features can be customised in the **mod settings**.
 - **Sleepwalk mechanic** allows pawns to get up at night to do… well, you will see. Think twice before you allow a psychopathic cannibalistic sleepwalker into your colony... 
 
-[Check our GitHub](https://github.com/QarsoonMeel/DreamersDreams/projects/1) for a complete list of current and planned features!
-
 # Balance
 
 **Our definition of chaos might not be the same as yours.** That is why this mod ships with extensive mod settings that allow great customisation. It simply adds another element to consider when accommodating your pawns’ needs. Feel free to fine-tune dream chances to suit your playstyle.
@@ -43,20 +41,6 @@ It is compatible with most race mods. If some issues pop up, let us know, and we
 
 The main inspiration for this mod are H.P. Lovecraft’s dreamland stories: *The Dream-Quest of Unknown Kadath*, *The Cats of Ulthar*, and *Celephaïs*, among others. 
 
-# I want to contribute!
-
-[Click here to submit a dream](https://forms.gle/BmaVYS3iJQvPPr179)
-As this mod is in active development, we always look for testers. Simply using this mod and submitting an issue or two will ensure our eternal gratitude.
-
-**Would you like to help develop Dreamer’s Dreams?** Leave a comment, send a message to [Psyche](https://steamcommunity.com/sharedfiles/filedetails/?id=2514986353), or access the project on [GitHub](https://github.com/QarsoonMeel/DreamersDreams). That’s where all the action happens.
-You can also make a separate mod that adds your custom dreams and dream requirements to the game. A guide on how to do this will follow soon.
-
-*If you submit a dream idea at the link above, on the Steam Workshop, or as a GitHub Issue, you allow us to edit this dream and feature it fully or in parts in this mod, credited to your name.*
-
-# Join our Discord!
-
-I have made the Discord server available [here](https://discord.gg/bwgrM2kvnQ). You are welcome to report issues or propose improvements about any of my mods there :)
-
 # Who made this?
 
 **Iwo Rosiak (Psyche)** - Project idea, coding, graphics, dreams
@@ -70,7 +54,7 @@ Have fun with our mod and happy dreaming…
 ### Wise men have interpreted dreams, and the gods have laughed.
  ~ H.P. Lovecraft
 
-![Image](https://i.postimg.cc/x8qR7GH9/Reporting-Issues.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
@@ -82,4 +66,6 @@ Have fun with our mod and happy dreaming…
 -  If you have the solution for a problem, please post it to the GitHub repository.
 -  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
+[![Image](https://img.shields.io/github/v/release/emipa606/DreamersDreams?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3584984139) | tags: mental health

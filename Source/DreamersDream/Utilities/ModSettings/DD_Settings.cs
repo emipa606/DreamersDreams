@@ -5,6 +5,7 @@ namespace DreamersDream;
 
 public class DD_Settings : ModSettings
 {
+    public static float dreamChancePerNight = 1f;
     public static bool isDreamingActive = true;
 
     public static bool isDefaultSettings = true;
@@ -33,6 +34,7 @@ public class DD_Settings : ModSettings
         Scribe_Values.Look(ref isDreamingActive, "isDreamingActive", true);
         Scribe_Values.Look(ref isDefaultSettings, "isDefaultSettings", true);
         Scribe_Values.Look(ref sleepwalkerTraitModif, "sleepwalkerTraitModif", 1);
+        Scribe_Values.Look(ref dreamChancePerNight, "dreamChancePerNight", 1f);
 
         base.ExposeData();
     }

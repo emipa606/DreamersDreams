@@ -10,6 +10,7 @@
   <DrDr.DefaultSettings>Default settings: {0}</DrDr.DefaultSettings>
   <DrDr.Reset>Reset settings</DrDr.Reset>
   <DrDr.SetNow>Set now</DrDr.SetNow>
+  <DrDr.dreamChancePerNight>Global chance of dreaming per night: {0}</DrDr.dreamChancePerNight>
   <DrDr.SleepwalkingOff>Sleepwalking is turned off.</DrDr.SleepwalkingOff>
   <DrDr.SleepwalkingOccasional>Occasional sleepwalker will sleepwalk around {0} times a year.</DrDr.SleepwalkingOccasional>
   <DrDr.Sleepwalking>Sleepwalker will sleepwalk around {0} times a year.</DrDr.Sleepwalking>

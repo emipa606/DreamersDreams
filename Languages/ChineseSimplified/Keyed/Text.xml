@@ -18,4 +18,5 @@
   <DrDr.Tags>标签</DrDr.Tags>
   <DrDr.Chance>机会</DrDr.Chance>
   <DrDr.Notify>通知</DrDr.Notify>
+  <DrDr.dreamChancePerNight>每晚全球做梦几率：{0}。</DrDr.dreamChancePerNight>
 </LanguageData>

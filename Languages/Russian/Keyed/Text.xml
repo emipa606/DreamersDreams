@@ -18,4 +18,5 @@
   <DrDr.Tags>Теги</DrDr.Tags>
   <DrDr.Chance>Шанс</DrDr.Chance>
   <DrDr.Notify>Уведомить</DrDr.Notify>
+  <DrDr.dreamChancePerNight>Глобальный шанс увидеть сон за ночь: {0}</DrDr.dreamChancePerNight>
 </LanguageData>

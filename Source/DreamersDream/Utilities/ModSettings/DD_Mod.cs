@@ -63,9 +63,17 @@ public class DD_Mod : Mod
 
         listingMid.GapLine();
 
+        listingMid.Label("DrDr.dreamChancePerNight".Translate(DD_Settings.dreamChancePerNight.ToStringPercent()));
+        DD_Settings.dreamChancePerNight =
+            listingMid.Slider(DD_Settings.dreamChancePerNight, 0, 1);
+
+
         if (DD_Settings.sleepwalkerTraitModif == 0)
         {
             listingMid.Label("DrDr.SleepwalkingOff".Translate());
+            listingMid.Gap();
+            listingMid.Gap();
+            listingMid.Gap();
         }
         else
         {
@@ -79,6 +87,7 @@ public class DD_Mod : Mod
 
         DD_Settings.sleepwalkerTraitModif =
             (float)Math.Round(listingMid.Slider(DD_Settings.sleepwalkerTraitModif, 0, 2), 2);
+
 
         listingMid.GapLine();
 

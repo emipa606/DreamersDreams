@@ -16,23 +16,6 @@ internal static class DreamChanceCalculator
         return chance;
     }
 
-    public static float CalculateChanceFor(this DreamTagDef dreamTag)
-    {
-        return GetCustomChance(dreamTag);
-    }
-
-    public static float CalculateChanceFor(this DreamTagDef dreamTag, Pawn pawn)
-    {
-        var chance = GetCustomChance(dreamTag);
-
-        if (!dreamTag.IsMeetingRequirements(pawn))
-        {
-            return 0;
-        }
-
-        return chance;
-    }
-
     private static float GetCustomChance(DreamTagDef tag)
     {
         if (DD_Settings.TagsCustomChances?.ContainsKey(tag.defName) == true && !DD_Settings.isDefaultSettings)
@@ -41,5 +24,25 @@ internal static class DreamChanceCalculator
         }
 
         return tag.chance;
+    }
+
+    extension(DreamTagDef dreamTag)
+    {
+        public float CalculateChanceFor()
+        {
+            return GetCustomChance(dreamTag);
+        }
+
+        public float CalculateChanceFor(Pawn pawn)
+        {
+            var chance = GetCustomChance(dreamTag);
+
+            if (!dreamTag.IsMeetingRequirements(pawn))
+            {
+                return 0;
+            }
+
+            return chance;
+        }
     }
 }

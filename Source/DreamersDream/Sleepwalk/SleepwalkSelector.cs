@@ -10,45 +10,6 @@ internal static class SleepwalkSelector
 
     private static float sumOfChances;
 
-    public static bool IsSleepwalker(this Pawn pawn)
-    {
-        return pawn.story.traits.HasTrait(DD_TraitDefOf.Sleepwalker);
-    }
-
-    public static DD_MentalStateDef ChooseSleepwalkState(this Pawn pawn)
-    {
-        switch (ChooseSleepwalkingType(pawn))
-        {
-            case SleepwalkingTypes.calm:
-                Messages.Message("DrDr.WalkAround".Translate(pawn.Name.ToStringShort, pawn.gender.GetPossessive()),
-                    pawn, MessageTypeDefOf.NeutralEvent);
-                return DD_MentalStateDefOf.Sleepwalk;
-
-            case SleepwalkingTypes.rage:
-                Messages.Message("DrDr.Rage".Translate(pawn.Name.ToStringShort, pawn.gender.GetPossessive()), pawn,
-                    MessageTypeDefOf.NeutralEvent);
-                return DD_MentalStateDefOf.SleepwalkBerserk;
-
-            case SleepwalkingTypes.food:
-                Messages.Message("DrDr.Eat".Translate(pawn.Name.ToStringShort, pawn.gender.GetPossessive()),
-                    pawn, MessageTypeDefOf.NeutralEvent);
-                return DD_MentalStateDefOf.SleepwalkBingingFood;
-
-            case SleepwalkingTypes.drugs:
-
-            case SleepwalkingTypes.tantrum:
-                Messages.Message("DrDr.Break".Translate(pawn.Name.ToStringShort, pawn.gender.GetPossessive()),
-                    pawn, MessageTypeDefOf.NeutralEvent);
-                return DD_MentalStateDefOf.SleepwalkTantrum;
-
-            default:
-                Log.Warning("Dreamer's Dreams: Failed to choose sleepwalking state.");
-                Messages.Message("DrDr.WalkAround".Translate(pawn.Name.ToStringShort, pawn.gender.GetPossessive()),
-                    pawn, MessageTypeDefOf.NeutralEvent);
-                return DD_MentalStateDefOf.Sleepwalk;
-        }
-    }
-
     private static SleepwalkingTypes ChooseSleepwalkingType(Pawn pawn)
     {
         SetupChancesForSleewalk(pawn);
@@ -174,5 +135,47 @@ internal static class SleepwalkSelector
         }
 
         return foodDesire;
+    }
+
+    extension(Pawn pawn)
+    {
+        public bool IsSleepwalker()
+        {
+            return pawn.story.traits.HasTrait(DD_TraitDefOf.Sleepwalker);
+        }
+
+        public DD_MentalStateDef ChooseSleepwalkState()
+        {
+            switch (ChooseSleepwalkingType(pawn))
+            {
+                case SleepwalkingTypes.calm:
+                    Messages.Message("DrDr.WalkAround".Translate(pawn.Name.ToStringShort, pawn.gender.GetPossessive()),
+                        pawn, MessageTypeDefOf.NeutralEvent);
+                    return DD_MentalStateDefOf.Sleepwalk;
+
+                case SleepwalkingTypes.rage:
+                    Messages.Message("DrDr.Rage".Translate(pawn.Name.ToStringShort, pawn.gender.GetPossessive()), pawn,
+                        MessageTypeDefOf.NeutralEvent);
+                    return DD_MentalStateDefOf.SleepwalkBerserk;
+
+                case SleepwalkingTypes.food:
+                    Messages.Message("DrDr.Eat".Translate(pawn.Name.ToStringShort, pawn.gender.GetPossessive()),
+                        pawn, MessageTypeDefOf.NeutralEvent);
+                    return DD_MentalStateDefOf.SleepwalkBingingFood;
+
+                case SleepwalkingTypes.drugs:
+
+                case SleepwalkingTypes.tantrum:
+                    Messages.Message("DrDr.Break".Translate(pawn.Name.ToStringShort, pawn.gender.GetPossessive()),
+                        pawn, MessageTypeDefOf.NeutralEvent);
+                    return DD_MentalStateDefOf.SleepwalkTantrum;
+
+                default:
+                    Log.Warning("Dreamer's Dreams: Failed to choose sleepwalking state.");
+                    Messages.Message("DrDr.WalkAround".Translate(pawn.Name.ToStringShort, pawn.gender.GetPossessive()),
+                        pawn, MessageTypeDefOf.NeutralEvent);
+                    return DD_MentalStateDefOf.Sleepwalk;
+            }
+        }
     }
 }

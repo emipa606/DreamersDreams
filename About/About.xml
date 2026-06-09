@@ -13,21 +13,21 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>[img]https://i.postimg.cc/1X4HT06h/Info.png[/img]
+  <description>[img]https://img.litet.net/logos/Info.png[/img]
 Update of Iwo Rosiaks mod https://steamcommunity.com/sharedfiles/filedetails/?id=2514986353
 
-[img]https://i.postimg.cc/8csH3dWV/Notice.png[/img]
+[img]https://img.litet.net/logos/Notice.png[/img]
 
 [table]
-    [tr][td][url=https://discord.gg/h5TY6DA][img]https://i.postimg.cc/T1h9SjbF/Discord.png[/img][/url][/td] [td][url=https://github.com/emipa606/DreamersDreams][img]https://i.postimg.cc/fykKF7X4/Github.png[/img][/url][/td]
+    [tr][td][url=https://discord.gg/h5TY6DA][img]https://img.litet.net/logos/Discord.png[/img][/url][/td] [td][url=https://github.com/emipa606/DreamersDreams][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
     [/tr]
     [tr]
-        [td][img]https://i.postimg.cc/MHXD40RW/Safe-To-Add.png[/img][/td]
-        [td][img]https://i.postimg.cc/brdTM0bP/Remove-May-Work.png[/img][/td]
+        [td][img]https://img.litet.net/logos/SafeToAdd.png[/img][/td]
+        [td][img]https://img.litet.net/logos/RemoveMayWork.png[/img][/td]
     [/tr]
 [/table]
 	
-[img]https://i.postimg.cc/hvhrw8xB/Original-Description.png[/img]
+[img]https://img.litet.net/logos/OriginalDescription.png[/img]
 [h3]The most merciful thing in the world, I think, is the inability of the human mind to correlate all its contents.[/h3] ~ H.P. Lovecraft
 
 Every night we voyage to unknown places. Flying, laughing, running away, loving and fighting. Those memories stay with us, shape us, although we don’t remember even a fraction of them. Why would we want to deny these pleasures from our colonists? 
@@ -44,8 +44,6 @@ But stories are not the only feature of this mod. Dreams usually have a short-te
 - Dream changes and other features can be customised in the [b]mod settings[/b].
 - [b]Sleepwalk mechanic[/b] allows pawns to get up at night to do… well, you will see. Think twice before you allow a psychopathic cannibalistic sleepwalker into your colony... 
 
-[url=https://github.com/QarsoonMeel/DreamersDreams/projects/1]Check our GitHub[/url] for a complete list of current and planned features!
-
 [h1]Balance[/h1]
 [b]Our definition of chaos might not be the same as yours.[/b] That is why this mod ships with extensive mod settings that allow great customisation. It simply adds another element to consider when accommodating your pawns’ needs. Feel free to fine-tune dream chances to suit your playstyle.
 
@@ -56,18 +54,6 @@ It is compatible with most race mods. If some issues pop up, let us know, and we
 
 [h1]Inspiration[/h1]
 The main inspiration for this mod are H.P. Lovecraft’s dreamland stories: [i]The Dream-Quest of Unknown Kadath[/i], [i]The Cats of Ulthar[/i], and [i]Celephaïs[/i], among others. 
-
-[h1]I want to contribute![/h1]
-[url=https://forms.gle/BmaVYS3iJQvPPr179]Click here to submit a dream[/url]
-As this mod is in active development, we always look for testers. Simply using this mod and submitting an issue or two will ensure our eternal gratitude.
-
-[b]Would you like to help develop Dreamer’s Dreams?[/b] Leave a comment, send a message to [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2514986353]Psyche[/url], or access the project on [url=https://github.com/QarsoonMeel/DreamersDreams]GitHub[/url]. That’s where all the action happens.
-You can also make a separate mod that adds your custom dreams and dream requirements to the game. A guide on how to do this will follow soon.
-
-[i]If you submit a dream idea at the link above, on the Steam Workshop, or as a GitHub Issue, you allow us to edit this dream and feature it fully or in parts in this mod, credited to your name.[/i]
-
-[h1]Join our Discord![/h1]
-I have made the Discord server available [url=https://discord.gg/bwgrM2kvnQ]here[/url]. You are welcome to report issues or propose improvements about any of my mods there :)
 
 [h1]Who made this?[/h1]
 [b]Iwo Rosiak (Psyche)[/b] - Project idea, coding, graphics, dreams
@@ -80,7 +66,7 @@ Have fun with our mod and happy dreaming…
 
 [h3]Wise men have interpreted dreams, and the gods have laughed.[/h3] ~ H.P. Lovecraft
 
-[img]https://i.postimg.cc/x8qR7GH9/Reporting-Issues.png[/img]
+[img]https://img.litet.net/logos/ReportingIssues.png[/img]
 [list]
 [*] See if the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -89,6 +75,8 @@ Have fun with our mod and happy dreaming…
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
-[/list]</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
+[/list] 
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3584984139][img]https://img.shields.io/github/v/release/emipa606/DreamersDreams?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags: mental health</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.2</modVersion>
 </ModMetaData>
