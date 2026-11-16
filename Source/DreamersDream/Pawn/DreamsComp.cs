@@ -35,11 +35,6 @@ public class DreamsComp : ThingComp
                 ApplyRandomDream();
             }
         }
-
-        if (DD_Settings.isDebugMode)
-        {
-            //DebugLogAllDreamsAndQualities();
-        }
     }
 
     private void ApplyRandomDream()

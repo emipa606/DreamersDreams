@@ -31,7 +31,6 @@ public class Thought_Dream : Thought_Memory
         debugInfo.AppendLine("");
         debugInfo.AppendLine($"Primary tag: {dreamDef.tags[0]}");
         debugInfo.AppendLine($"Base chance: {dreamDef.CalculateChanceFor(pawn)}");
-        //debugInfo.AppendLine("Relative chance: " + relativeChance);
         debugInfo.AppendLine(RequirementsInString());
 
         return debugInfo.ToString();
@@ -274,6 +273,4 @@ public class Thought_Dream : Thought_Memory
         debugInfo.AppendInNewLine($"Maximum mood: {dreamDef.maxMood}");
         return debugInfo.ToString();
     }
-
-    // public float relativeChance;
 }

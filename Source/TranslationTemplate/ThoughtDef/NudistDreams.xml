@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Dreamt about partying naked -->
+  <DreamNakedParty.label>Dreamt about partying naked</DreamNakedParty.label>
+  <!-- EN: I was walking around the colony, when I realised that I'm wearing no clothes! I looked around and noticed that everyone took off their clothes as they saw me! We started to drink and dance naked until we dropped from exhaustion. -->
+  <DreamNakedParty.description>I was walking around the colony, when I realised that I'm wearing no clothes! I looked around and noticed that everyone took off their clothes as they saw me! We started to drink and dance naked until we dropped from exhaustion.</DreamNakedParty.description>
+  <!-- EN: NoLabel -->
+  <DreamNakedParty.stages.NoLabel.label>NoLabel</DreamNakedParty.stages.NoLabel.label>
+  <!-- EN: NoDescription -->
+  <DreamNakedParty.stages.NoLabel.description>NoDescription</DreamNakedParty.stages.NoLabel.description>
+</LanguageData>

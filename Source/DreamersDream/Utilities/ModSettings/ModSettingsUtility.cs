@@ -67,8 +67,7 @@ internal static class ModSettingsUtility
         column.width = 24f;
 
         if (Widgets.ButtonText(column, "--", true, true,
-                new Color(30, 30,
-                    26))) //Widgets.ButtonImage(columnChance, Textures.IncrementButton, true)) //(columnChance, button.MatSingle.GetMaskTexture(), true);
+                new Color(30, 30, 26)))
         {
             if (chance > 0)
             {
@@ -83,7 +82,7 @@ internal static class ModSettingsUtility
 
         column.x += 24f;
         if (Widgets.ButtonText(column, "-", true, true,
-                new Color(30, 30, 26))) //(columnChance, button.MatSingle.GetMaskTexture(), true);
+                new Color(30, 30, 26)))
         {
             if (chance > 0)
             {
@@ -98,14 +97,14 @@ internal static class ModSettingsUtility
 
         column.x += 74f;
         if (Widgets.ButtonText(column, "+", true, true,
-                new Color(30, 30, 26))) //(columnChance, button.MatSingle.GetMaskTexture(), true);
+                new Color(30, 30, 26)))
         {
             chance++;
         }
 
         column.x += 24f;
         if (Widgets.ButtonText(column, "++", true, true,
-                new Color(30, 30, 26))) //(columnChance, button.MatSingle.GetMaskTexture(), true);
+                new Color(30, 30, 26)))
         {
             chance += 10;
         }

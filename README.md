@@ -4,6 +4,8 @@
 
 Update of Iwo Rosiaks mod https://steamcommunity.com/sharedfiles/filedetails/?id=2514986353
 
+- Added mod-option to set the global dream chance
+
 ![Image](https://img.litet.net/logos/Notice.png)
 	
 ![Image](https://img.litet.net/logos/OriginalDescription.png)
@@ -68,4 +70,4 @@ Have fun with our mod and happy dreaming…
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/DreamersDreams?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3584984139) | tags: mental health
+[![Image](https://img.shields.io/github/v/release/emipa606/DreamersDreams?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3584984139) | mental health

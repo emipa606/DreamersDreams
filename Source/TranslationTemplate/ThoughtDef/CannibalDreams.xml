@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Dreamt about cheese -->
+  <DreamCheeseBad.label>Dreamt about cheese</DreamCheeseBad.label>
+  <!-- EN: Cheese... Cheese everywhere! -->
+  <DreamCheeseBad.description>Cheese... Cheese everywhere!</DreamCheeseBad.description>
+  <!-- EN: NoLabel -->
+  <DreamCheeseBad.stages.NoLabel.label>NoLabel</DreamCheeseBad.stages.NoLabel.label>
+  <!-- EN: NoDescription -->
+  <DreamCheeseBad.stages.NoLabel.description>NoDescription</DreamCheeseBad.stages.NoLabel.description>
+  <!-- EN: Dreamt about eating my rival -->
+  <DreamEatingRival.label>Dreamt about eating my rival</DreamEatingRival.label>
+  <!-- EN: I laughed while tying him over the fire pit. I laughed while heat was charring his face. I laughed while consuming his flesh. -->
+  <DreamEatingRival.description>I laughed while tying him over the fire pit. I laughed while heat was charring his face. I laughed while consuming his flesh.</DreamEatingRival.description>
+  <!-- EN: NoLabel -->
+  <DreamEatingRival.stages.NoLabel.label>NoLabel</DreamEatingRival.stages.NoLabel.label>
+  <!-- EN: NoDescription -->
+  <DreamEatingRival.stages.NoLabel.description>NoDescription</DreamEatingRival.stages.NoLabel.description>
+  <!-- EN: Dreamt about eating someone -->
+  <DreamEatingSomeone.label>Dreamt about eating someone</DreamEatingSomeone.label>
+  <!-- EN: Eating a human being is simple. I used to think of it as a disgusting thing, but simply trying this delicacy proved me wrong! -->
+  <DreamEatingSomeone.description>Eating a human being is simple. I used to think of it as a disgusting thing, but simply trying this delicacy proved me wrong!</DreamEatingSomeone.description>
+  <!-- EN: NoLabel -->
+  <DreamEatingSomeone.stages.NoLabel.label>NoLabel</DreamEatingSomeone.stages.NoLabel.label>
+  <!-- EN: NoDescription -->
+  <DreamEatingSomeone.stages.NoLabel.description>NoDescription</DreamEatingSomeone.stages.NoLabel.description>
+  <!-- EN: Dreamt about human feast -->
+  <DreamHumanFeast.label>Dreamt about human feast</DreamHumanFeast.label>
+  <!-- EN: Legs, arms, eyes and brains. Cooked to perfection. I can eat my fill and no one will judge me! -->
+  <DreamHumanFeast.description>Legs, arms, eyes and brains. Cooked to perfection. I can eat my fill and no one will judge me!</DreamHumanFeast.description>
+  <!-- EN: NoLabel -->
+  <DreamHumanFeast.stages.NoLabel.label>NoLabel</DreamHumanFeast.stages.NoLabel.label>
+  <!-- EN: NoDescription -->
+  <DreamHumanFeast.stages.NoLabel.description>NoDescription</DreamHumanFeast.stages.NoLabel.description>
+  <!-- EN: Dreamt about special pizza -->
+  <DreamPizzaFriendsCannibal.label>Dreamt about special pizza</DreamPizzaFriendsCannibal.label>
+  <!-- EN: I dreamt I was making pizza out of my friends. It was delicious. -->
+  <DreamPizzaFriendsCannibal.description>I dreamt I was making pizza out of my friends. It was delicious.</DreamPizzaFriendsCannibal.description>
+  <!-- EN: NoLabel -->
+  <DreamPizzaFriendsCannibal.stages.NoLabel.label>NoLabel</DreamPizzaFriendsCannibal.stages.NoLabel.label>
+  <!-- EN: NoDescription -->
+  <DreamPizzaFriendsCannibal.stages.NoLabel.description>NoDescription</DreamPizzaFriendsCannibal.stages.NoLabel.description>
+</LanguageData>

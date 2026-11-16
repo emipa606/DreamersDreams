@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: work frenzy -->
+  <Dream_Frenzy_Work.label>work frenzy</Dream_Frenzy_Work.label>
+  <!-- EN: Dream: Work frenzy -->
+  <Dream_Frenzy_Work.baseInspectLine>Dream: Work frenzy</Dream_Frenzy_Work.baseInspectLine>
+  <!-- EN: [PAWN_pronoun] had an extraordinary dream. [PAWN_pronoun] will work faster for 2 days. -->
+  <Dream_Frenzy_Work.beginLetter>[PAWN_pronoun] had an extraordinary dream. [PAWN_pronoun] will work faster for 2 days.</Dream_Frenzy_Work.beginLetter>
+  <!-- EN: {0} is no longer inspired (work frenzy). -->
+  <Dream_Frenzy_Work.endMessage>{0} is no longer inspired (work frenzy).</Dream_Frenzy_Work.endMessage>
+  <!-- EN: inspired creativity -->
+  <Dream_Inspired_Creativity.label>inspired creativity</Dream_Inspired_Creativity.label>
+  <!-- EN: Dream: Inspired creativity -->
+  <Dream_Inspired_Creativity.baseInspectLine>Dream: Inspired creativity</Dream_Inspired_Creativity.baseInspectLine>
+  <!-- EN: The next item, art, or furniture [PAWN_pronoun] creates will be two quality levels higher than it would otherwise be. This even allows the creation of legendary items.\n\nThe inspiration will end after 2 days, or when the creation is completed. -->
+  <Dream_Inspired_Creativity.beginLetter>The next item, art, or furniture [PAWN_pronoun] creates will be two quality levels higher than it would otherwise be. This even allows the creation of legendary items.
+
+The inspiration will end after 2 days, or when the creation is completed.</Dream_Inspired_Creativity.beginLetter>
+  <!-- EN: {0} is no longer inspired (inspired creativity). -->
+  <Dream_Inspired_Creativity.endMessage>{0} is no longer inspired (inspired creativity).</Dream_Inspired_Creativity.endMessage>
+  <!-- EN: inspired trade -->
+  <Dream_Inspired_Trade.label>inspired trade</Dream_Inspired_Trade.label>
+  <!-- EN: Dream: Inspired trade -->
+  <Dream_Inspired_Trade.baseInspectLine>Dream: Inspired trade</Dream_Inspired_Trade.baseInspectLine>
+  <!-- EN: [PAWN_pronoun] had an extraordinary dream. [PAWN_pronoun] will get a significant trade price bonus when closing [PAWN_possessive] next trade deal.\n\nThe inspiration will expire after 2 days, or when the deal is done. -->
+  <Dream_Inspired_Trade.beginLetter>[PAWN_pronoun] had an extraordinary dream. [PAWN_pronoun] will get a significant trade price bonus when closing [PAWN_possessive] next trade deal.
+
+The inspiration will expire after 2 days, or when the deal is done.</Dream_Inspired_Trade.beginLetter>
+  <!-- EN: {0} is no longer inspired (inspired trade). -->
+  <Dream_Inspired_Trade.endMessage>{0} is no longer inspired (inspired trade).</Dream_Inspired_Trade.endMessage>
+</LanguageData>

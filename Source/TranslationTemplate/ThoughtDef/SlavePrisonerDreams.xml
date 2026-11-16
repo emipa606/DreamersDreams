@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Dreamt about hierarchy -->
+  <DreamSlaveHierarchy.label>Dreamt about hierarchy</DreamSlaveHierarchy.label>
+  <!-- EN: I sat on a golden throne, eating a delicious meal. People worked around me. When I was done eating, I called to them and they turned. All of them had my face! -->
+  <DreamSlaveHierarchy.description>I sat on a golden throne, eating a delicious meal. People worked around me. When I was done eating, I called to them and they turned. All of them had my face!</DreamSlaveHierarchy.description>
+  <!-- EN: NoLabel -->
+  <DreamSlaveHierarchy.stages.NoLabel.label>NoLabel</DreamSlaveHierarchy.stages.NoLabel.label>
+  <!-- EN: NoDescription -->
+  <DreamSlaveHierarchy.stages.NoLabel.description>NoDescription</DreamSlaveHierarchy.stages.NoLabel.description>
+  <!-- EN: Dreamt about servitude -->
+  <DreamSlaveServitude.label>Dreamt about servitude</DreamSlaveServitude.label>
+  <!-- EN: There was stone tablet hovering just above me, inscribed with the endless, demeaning tasks ahead of me and with the big plans my masters have. It didn't feel like those plans included me. -->
+  <DreamSlaveServitude.description>There was stone tablet hovering just above me, inscribed with the endless, demeaning tasks ahead of me and with the big plans my masters have. It didn't feel like those plans included me.</DreamSlaveServitude.description>
+  <!-- EN: NoLabel -->
+  <DreamSlaveServitude.stages.NoLabel.label>NoLabel</DreamSlaveServitude.stages.NoLabel.label>
+  <!-- EN: NoDescription -->
+  <DreamSlaveServitude.stages.NoLabel.description>NoDescription</DreamSlaveServitude.stages.NoLabel.description>
+  <!-- EN: Dreamt about solitary confinement -->
+  <DreamSolitaryConfinement.label>Dreamt about solitary confinement</DreamSolitaryConfinement.label>
+  <!-- EN: I dreamt of all my friends leaving me, one by one. In the end, it was only me, locked in this dark hole, forever. -->
+  <DreamSolitaryConfinement.description>I dreamt of all my friends leaving me, one by one. In the end, it was only me, locked in this dark hole, forever.</DreamSolitaryConfinement.description>
+  <!-- EN: NoLabel -->
+  <DreamSolitaryConfinement.stages.NoLabel.label>NoLabel</DreamSolitaryConfinement.stages.NoLabel.label>
+  <!-- EN: NoDescription -->
+  <DreamSolitaryConfinement.stages.NoLabel.description>NoDescription</DreamSolitaryConfinement.stages.NoLabel.description>
+</LanguageData>

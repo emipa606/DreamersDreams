@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: sleepwalking -->
+  <Sleepwalk.label>sleepwalking</Sleepwalk.label>
+  <!-- EN: Sleepwalking... -->
+  <Sleepwalk.baseInspectLine>Sleepwalking...</Sleepwalk.baseInspectLine>
+  <!-- EN: {0} no longer sleepwalks. -->
+  <Sleepwalk.recoveryMessage>{0} no longer sleepwalks.</Sleepwalk.recoveryMessage>
+  <!-- EN: sleepwalking berserk -->
+  <SleepwalkBerserk.label>sleepwalking berserk</SleepwalkBerserk.label>
+  <!-- EN: Sleepwalking... -->
+  <SleepwalkBerserk.baseInspectLine>Sleepwalking...</SleepwalkBerserk.baseInspectLine>
+  <!-- EN: {0} no longer sleepwalks. -->
+  <SleepwalkBerserk.recoveryMessage>{0} no longer sleepwalks.</SleepwalkBerserk.recoveryMessage>
+  <!-- EN: Sleepwalk Binging Food -->
+  <SleepwalkBingingFood.label>Sleepwalk Binging Food</SleepwalkBingingFood.label>
+  <!-- EN: Sleepwalking... -->
+  <SleepwalkBingingFood.baseInspectLine>Sleepwalking...</SleepwalkBingingFood.baseInspectLine>
+  <!-- EN: {0} no longer sleepwalks. -->
+  <SleepwalkBingingFood.recoveryMessage>{0} no longer sleepwalks.</SleepwalkBingingFood.recoveryMessage>
+  <!-- EN: sleepwalking in own room -->
+  <SleepwalkOwnRoom.label>sleepwalking in own room</SleepwalkOwnRoom.label>
+  <!-- EN: Sleepwalking... -->
+  <SleepwalkOwnRoom.baseInspectLine>Sleepwalking...</SleepwalkOwnRoom.baseInspectLine>
+  <!-- EN: {0} no longer sleepwalks. -->
+  <SleepwalkOwnRoom.recoveryMessage>{0} no longer sleepwalks.</SleepwalkOwnRoom.recoveryMessage>
+  <!-- EN: sleepwalking -->
+  <SleepwalkSafe.label>sleepwalking</SleepwalkSafe.label>
+  <!-- EN: Sleepwalking... -->
+  <SleepwalkSafe.baseInspectLine>Sleepwalking...</SleepwalkSafe.baseInspectLine>
+  <!-- EN: {0} no longer sleepwalks. -->
+  <SleepwalkSafe.recoveryMessage>{0} no longer sleepwalks.</SleepwalkSafe.recoveryMessage>
+  <!-- EN: sleepwalking tantrum -->
+  <SleepwalkTantrum.label>sleepwalking tantrum</SleepwalkTantrum.label>
+  <!-- EN: Sleepwalking... -->
+  <SleepwalkTantrum.baseInspectLine>Sleepwalking...</SleepwalkTantrum.baseInspectLine>
+  <!-- EN: {0} no longer sleepwalks. -->
+  <SleepwalkTantrum.recoveryMessage>{0} no longer sleepwalks.</SleepwalkTantrum.recoveryMessage>
+</LanguageData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: amazing -->
+  <Amazing.label>amazing</Amazing.label>
+  <!-- EN: disturbing -->
+  <Disturbing.label>disturbing</Disturbing.label>
+  <!-- EN: epic -->
+  <Epic.label>epic</Epic.label>
+  <!-- EN: exciting -->
+  <Exciting.label>exciting</Exciting.label>
+  <!-- EN: frightening -->
+  <Frightening.label>frightening</Frightening.label>
+  <!-- EN: infernal -->
+  <HellLike.label>infernal</HellLike.label>
+  <!-- EN: legendary -->
+  <Legendary.label>legendary</Legendary.label>
+  <!-- EN: pleasant -->
+  <Pleasant.label>pleasant</Pleasant.label>
+  <!-- EN: sleepwalk -->
+  <Sleepwalk.label>sleepwalk</Sleepwalk.label>
+  <!-- EN: terrifying -->
+  <Terrorising.label>terrifying</Terrorising.label>
+  <!-- EN: unpleasant -->
+  <Unpleasant.label>unpleasant</Unpleasant.label>
+</LanguageData>

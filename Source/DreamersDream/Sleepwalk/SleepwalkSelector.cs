@@ -37,7 +37,7 @@ internal static class SleepwalkSelector
         currentThreshold += GetChanceForFoodSleepwalk(pawn);
         SleepwalkChancesThresholds.Add(SleepwalkingTypes.food, currentThreshold);
 
-        currentThreshold += GetChanceForRageSleepwalk(pawn);
+        currentThreshold += pawn.GetChanceForRageSleepwalk();
         SleepwalkChancesThresholds.Add(SleepwalkingTypes.rage, currentThreshold);
 
         currentThreshold += GetChanceForTantrumSleepwalk(pawn);

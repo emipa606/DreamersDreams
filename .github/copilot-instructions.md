@@ -1,41 +1,169 @@
-# GitHub Copilot Instructions for Dreamer's Dreams (Continued)
+# GitHub Copilot Instructions for Dreamer's Dreams (Continued) RimWorld Mod
 
 ## Mod Overview and Purpose
-The "Dreamer's Dreams (Continued)" mod, originally created by Iwo Rosiak and now continued by the community, enhances the gameplay experience in RimWorld by introducing a dream system for pawns. Inspired by the dreamland stories of H.P. Lovecraft, the mod allows pawns to experience dreams when they sleep, adding depth to their personalities and story arcs. Dreams can have varying effects on the mental and emotional states of colonists, thus introducing an element of unpredictability and complexity in the management of the colony.
+
+**Dreamer's Dreams (Continued)** is an update to Iwo Rosiak's original mod that adds the ability for pawns to have nightdreams. These dreams reflect the pawns' situation and personality, adding an element of instability and unpredictability to the colony. The mod includes various dream scenarios with short-term and long-term effects on the pawns.
 
 ## Key Features and Systems
-- **Dream System:** Upon falling asleep, pawns are assigned a dream-related thought that appears in the Needs tab.
-- **Dream Variety:** Over 100 dreams are crafted, which reflect different qualities and requirements based on the pawn's attributes and circumstances, such as their traits, social status, and mood.
-- **Customizable Settings:** The mod provides options in the settings menu to customize dream occurrences and effects.
-- **Sleepwalk Mechanic:** Some pawns may exhibit sleepwalking behavior, leading to unexpected nocturnal activities, potentially hazardous in nature.
-- **Balance and Compatibility:** Designed with customization in mind to fit different playstyles, the mod works with existing saves and is compatible with most other mods, especially race mods.
+
+### 1. Dreams
+- Pawns gain dream thoughts when they fall asleep.
+- Dreams are categorized into positive, negative, anxious, and fever dreams.
+- Each dream has unique qualities and requirements based on various factors such as the pawn's traits, needs, and situation.
+
+### 2. Sleepwalk Mechanic
+- Pawns can sleepwalk at night, potentially engaging in various activities.
+- This adds an extra layer of risk to the colony, as sleepwalkers might perform dangerous actions.
+
+### 3. Customizable Mod Settings
+- Players can adjust the frequency and types of dreams experienced by pawns.
+- This allows for a wide range of customization to suit different playstyles.
+
+### 4. Mental States
+- Dreams can trigger or modify mental states, such as anxiety or fever.
+- These mental states can have further effects on the pawn's behavior and well-being.
+
+### 5. Traits and Tags
+- Pawns with specific traits or tags are more likely to experience certain types of dreams.
+- This adds depth to the pawn's personality and behavior.
 
 ## Coding Patterns and Conventions
-- **C# Structure:** The project primarily consists of classes for managing dream definitions, calculating dream chances, and integrating traits. Follow the convention of one class per file, naming files to match the primary class they contain.
-- **Naming Conventions:** Use PascalCase for class names and publicly accessible methods, and camelCase for private variables and parameters.
-- **Comments and Documentation:** Ensure all methods and classes are well-documented with XML-style comments to explain their functionality and any parameters or returns.
+
+### 1. XML Definitions
+- All XML files are located in the `Defs` directory.
+- Each XML file defines various aspects of the mod, such as dreams, mental states, and traits.
+- XML definitions follow the RimWorld Defs format.
+
+### 2. C# Code
+- C# code is organized into multiple files within the `Source` directory.
+- Key files include:
+  - `DD_MentalStateDef.cs`: Defines mental state definitions.
+  - `DD_TraitDefOf.cs`: Contains constants for trait definitions.
+  - `DD_MentalStateDefOf.cs`: Contains constants for mental state definitions.
+  - `DreamTagDefOf.cs`: Contains constants for dream tag definitions.
+  - `DreamDef.cs`: Defines dream definitions.
+
+### 3. Harmony Patching
+- The mod uses Harmony patches to modify existing RimWorld behavior.
+- Patches are located in the `Source` directory.
+- Harmony patches follow the standard Harmony patching conventions.
+
+### 4. Naming Conventions
+- Class and method names follow PascalCase.
+- Constant names follow SCREAMING_SNAKE_CASE.
+- XML element names follow kebab-case.
 
 ## XML Integration
-- **Dream Definitions:** Utilize XML files to define dreams, categorized based on types (e.g., BaseDreams, NegativeDreamDefs, PositiveDreamDefs). Each dream is defined using custom XML defs that tie into the C# logic.
-- **Consistency:** Maintain a consistent schema for defining dreams to ensure correct parsing and integration by the mod.
-- **Error Handling:** Be vigilant of potential XML parsing errors and ensure all references in C# are correctly aligned with XML definitions.
+
+### 1. Defs Files
+- The mod uses XML files to define various aspects of the game, such as dreams, mental states, and traits.
+- Each XML file contains multiple definitions, each with its own set of properties.
+- Example XML files include:
+  - `BaseDreams.xml`: Contains base dream definitions.
+  - `NegativeDreamDefs.xml`: Contains negative dream definitions.
+  - `PositiveDreamDefs.xml`: Contains positive dream definitions.
+  - `AnxiousDreams.xml`: Contains anxious dream definitions.
+  - `FeverDreams.xml`: Contains fever dream definitions.
+
+### 2. XML Structure
+- Each XML file follows the standard RimWorld Defs structure.
+- Example XML structure:
+  xml
+  <Defs>
+    <DreamersDream.DreamDef>
+      <defName>DD_Dream_Sadness</defName>
+      <label>Sadness</label>
+      <description>A dream of sadness and despair.</description>
+      <positive>false</positive>
+      <tags>
+        <li>negative</li>
+      </tags>
+    </DreamersDream.DreamDef>
+  </Defs>
+  
 
 ## Harmony Patching
-- **Patching Philosophy:** Use Harmony to patch core RimWorld functionality responsibly. Apply patches judiciously to alter behavior without directly modifying base game files.
-- **Using Harmony Annotations:** Utilize [HarmonyPatch] attributes to target specific methods in the RimWorld base code.
-- **Testing:** Thoroughly test patches in various scenarios to prevent conflicts and ensure robust integration.
+
+### 1. Patching Process
+- The mod uses Harmony patches to modify existing RimWorld behavior.
+- Patches are applied to methods in the RimWorld codebase.
+- Example patch:
+  csharp
+  [HarmonyPatch(typeof(Pawn), "GetGreetingType")]
+  public static class Pawn_GetGreetingType_Patch
+  {
+      public static void Postfix(Pawn __instance, ref GreetingType __result)
+      {
+          // Custom logic for greeting type
+      }
+  }
+  
+
+### 2. Patch Naming Conventions
+- Patch classes are named using the following convention: `[HarmonyPatch]` followed by the class and method being patched.
+- Postfix and prefix methods are named using the following convention: `Postfix` or `Prefix` followed by the method name.
 
 ## Suggestions for Copilot
-- Given the high number of defined dreams, automate or assist in generating new dream scenarios by using Copilot to identify patterns in dream def XML files.
-- Leverage Copilot to refactor commonly repeated logic in C# files, such as dream chance calculations, into reusable methods or extensions.
-- Utilize Copilot's completion suggestions to maintain consistency in naming conventions and XML structure, reducing manual errors and speeding up development.
 
-## Additional Tips
-- When troubleshooting or developing new features, enable detailed logging to quickly identify if issues arise from dream logic or integration points.
-- Before releasing any updates, perform comprehensive testing on both new and existing save files to catch errors early and ensure smooth player experiences.
-- Engage with the modding community for feedback on dream balancing and feature suggestions. This can inform future iterations of the mod.
+### 1. XML Generation
+- Generate XML definitions for new dreams, mental states, or traits.
+- Example XML:
+  xml
+  <Defs>
+    <DreamersDream.DreamDef>
+      <defName>DD_Dream_Happiness</defName>
+      <label>Happiness</label>
+      <description>A dream of joy and contentment.</description>
+      <positive>true</positive>
+      <tags>
+        <li>positive</li>
+      </tags>
+    </DreamersDream.DreamDef>
+  </Defs>
+  
 
-Happy dreaming and coding!
+### 2. Harmony Patching
+- Generate Harmony patches for modifying existing RimWorld behavior.
+- Example patch:
+  csharp
+  [HarmonyPatch(typeof(Pawn), "GetMood")]
+  public static class Pawn_GetMood_Patch
+  {
+      public static void Postfix(Pawn __instance, ref Thought_Mood __result)
+      {
+          // Custom logic for mood
+      }
+  }
+  
+
+### 3. C# Code Generation
+- Generate C# code for new mental state or trait definitions.
+- Example C#:
+  csharp
+  public class DD_MentalStateDef : MentalStateDef
+  {
+      public new static DD_MentalStateDefOf DefOf;
+  }
+
+  public static class DD_MentalStateDefOf
+  {
+      public static DD_MentalStateDef DD_Anxiety;
+  }
+  
+
+### 4. Mod Settings
+- Generate mod settings for customizing dream frequency and types.
+- Example settings:
+  csharp
+  public static class ModSettings
+  {
+      public static int DreamFrequency = 1;
+      public static List<string> PositiveDreamTags = new List<string> { "positive" };
+      public static List<string> NegativeDreamTags = new List<string> { "negative" };
+  }
+  
+
+By following these guidelines, developers can efficiently contribute to the Dreamer's Dreams (Continued) mod using GitHub Copilot.
 
 ## Project Solution Guidelines
 - Relevant mod XML files are included as Solution Items under the solution folder named XML, these can be read and modified from within the solution.
@@ -49,4 +177,6 @@ Happy dreaming and coding!
 ## Hard rules (must follow)
 - Do NOT run commands that modify the repo (no git commit, git apply, dotnet format) unless explicitly asked.
 - Prefer minimal reads: read only the smallest code region needed (around the suspicious lines).
+- When mentioning SonarQube issues, automatically use the SonarQube MCP service to fetch and address issues instead of making inferred fixes without querying SonarQube first.
+- When mentioning the rimworld log, automatically use the Rimworld MCP service to fetch the log.
 

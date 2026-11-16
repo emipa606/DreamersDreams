@@ -1,5 +1,9 @@
 # Changelog for DreamersDreams
 
+1.7.0 - Mod updated for 1.7 and passed autotests
+Used DeepL to update translations for German, ChineseSimplified, French, Polish, Russian
+
+
 1.6.2 - Added mod-option to set the global dream chance
 Used DeepL to update translations for ChineseSimplified, French, German, Polish, Russian
 

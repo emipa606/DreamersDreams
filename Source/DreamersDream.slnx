@@ -6,36 +6,8 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="DreamersDream/DreamersDream.csproj" />
-  <Folder Name="/XML/1.6/Defs/ThinkTreeDefs/">
-    <File Path="../1.6/Defs/ThinkTreeDefs/SubTrees_Misc.xml" />
-  </Folder>
-  <Folder Name="/XML/1.6/Defs/DreamDefs/Dreams/TraitDreams/">
-    <File Path="../1.6/Defs/DreamDefs/Dreams/TraitDreams/BloodlustDreams.xml" />
-    <File Path="../1.6/Defs/DreamDefs/Dreams/TraitDreams/CannibalDreams.xml" />
-    <File Path="../1.6/Defs/DreamDefs/Dreams/TraitDreams/NudistDreams.xml" />
-    <File Path="../1.6/Defs/DreamDefs/Dreams/TraitDreams/SleepwalkerDreams.xml" />
-  </Folder>
-  <Folder Name="/XML/1.6/Defs/TraitDefs/">
-    <File Path="../1.6/Defs/TraitDefs/Traits_Singular.xml" />
-  </Folder>
   <Folder Name="/XML/About/">
     <File Path="../About/about.xml" />
-  </Folder>
-  <Folder Name="/XML/1.6/Defs/Inspirations/">
-    <File Path="../1.6/Defs/Inspirations/Inspirations.xml" />
-  </Folder>
-  <Folder Name="/XML/1.6/Defs/DreamDefs/">
-    <File Path="../1.6/Defs/DreamDefs/DreamTagsDefs.xml" />
-  </Folder>
-  <Folder Name="/XML/1.6/Defs/MentalStateDefs/">
-    <File Path="../1.6/Defs/MentalStateDefs/MentalStates_DreamStates.xml" />
-  </Folder>
-  <Folder Name="/XML/1.6/Defs/DreamDefs/Dreams/StateDreams/">
-    <File Path="../1.6/Defs/DreamDefs/Dreams/StateDreams/AnxiousDreams.xml" />
-    <File Path="../1.6/Defs/DreamDefs/Dreams/StateDreams/FeverDreams.xml" />
-    <File Path="../1.6/Defs/DreamDefs/Dreams/StateDreams/HealthDreams.xml" />
-    <File Path="../1.6/Defs/DreamDefs/Dreams/StateDreams/HungryDreams.xml" />
-    <File Path="../1.6/Defs/DreamDefs/Dreams/StateDreams/SlavePrisonerDreams.xml" />
   </Folder>
   <Folder Name="/XML/Patches/">
     <File Path="../Patches/DreamComp_Patches.xml" />
@@ -43,9 +15,37 @@
   <Folder Name="/XML/Languages/English/Keyed/">
     <File Path="../Languages/English/Keyed/Text.xml" />
   </Folder>
-  <Folder Name="/XML/1.6/Defs/DreamDefs/Dreams/">
-    <File Path="../1.6/Defs/DreamDefs/Dreams/BaseDreams.xml" />
-    <File Path="../1.6/Defs/DreamDefs/Dreams/NegativeDreamDefs.xml" />
-    <File Path="../1.6/Defs/DreamDefs/Dreams/PositiveDreamDefs.xml" />
+  <Folder Name="/XML/1.7/Defs/DreamDefs/Dreams/TraitDreams/">
+    <File Path="../1.7/Defs/DreamDefs/Dreams/TraitDreams/BloodlustDreams.xml" />
+    <File Path="../1.7/Defs/DreamDefs/Dreams/TraitDreams/CannibalDreams.xml" />
+    <File Path="../1.7/Defs/DreamDefs/Dreams/TraitDreams/NudistDreams.xml" />
+    <File Path="../1.7/Defs/DreamDefs/Dreams/TraitDreams/SleepwalkerDreams.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/TraitDefs/">
+    <File Path="../1.7/Defs/TraitDefs/Traits_Singular.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/DreamDefs/Dreams/">
+    <File Path="../1.7/Defs/DreamDefs/Dreams/BaseDreams.xml" />
+    <File Path="../1.7/Defs/DreamDefs/Dreams/NegativeDreamDefs.xml" />
+    <File Path="../1.7/Defs/DreamDefs/Dreams/PositiveDreamDefs.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/DreamDefs/">
+    <File Path="../1.7/Defs/DreamDefs/DreamTagsDefs.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThinkTreeDefs/">
+    <File Path="../1.7/Defs/ThinkTreeDefs/SubTrees_Misc.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/DreamDefs/Dreams/StateDreams/">
+    <File Path="../1.7/Defs/DreamDefs/Dreams/StateDreams/AnxiousDreams.xml" />
+    <File Path="../1.7/Defs/DreamDefs/Dreams/StateDreams/FeverDreams.xml" />
+    <File Path="../1.7/Defs/DreamDefs/Dreams/StateDreams/HealthDreams.xml" />
+    <File Path="../1.7/Defs/DreamDefs/Dreams/StateDreams/HungryDreams.xml" />
+    <File Path="../1.7/Defs/DreamDefs/Dreams/StateDreams/SlavePrisonerDreams.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/MentalStateDefs/">
+    <File Path="../1.7/Defs/MentalStateDefs/MentalStates_DreamStates.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Inspirations/">
+    <File Path="../1.7/Defs/Inspirations/Inspirations.xml" />
   </Folder>
 </Solution>

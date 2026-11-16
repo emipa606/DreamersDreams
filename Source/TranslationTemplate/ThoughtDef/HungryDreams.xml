@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Disturbed sleep (starvation) -->
+  <DreamStarving.label>Disturbed sleep (starvation)</DreamStarving.label>
+  <!-- EN: My growling stomach kept me awake... -->
+  <DreamStarving.description>My growling stomach kept me awake...</DreamStarving.description>
+  <!-- EN: NoLabel -->
+  <DreamStarving.stages.NoLabel.label>NoLabel</DreamStarving.stages.NoLabel.label>
+  <!-- EN: NoDescription -->
+  <DreamStarving.stages.NoLabel.description>NoDescription</DreamStarving.stages.NoLabel.description>
+  <!-- EN: Dreamt about withering away -->
+  <DreamWitheringAway.label>Dreamt about withering away</DreamWitheringAway.label>
+  <!-- EN: I was a flower in a beautiful, green grassland. When the sun came up, I bloomed and stretched my petals. First, the warmth felt wonderful, but then it began to burn. The grassland around me turned brown and hard until only I was left. -->
+  <DreamWitheringAway.description>I was a flower in a beautiful, green grassland. When the sun came up, I bloomed and stretched my petals. First, the warmth felt wonderful, but then it began to burn. The grassland around me turned brown and hard until only I was left.</DreamWitheringAway.description>
+  <!-- EN: NoLabel -->
+  <DreamWitheringAway.stages.NoLabel.label>NoLabel</DreamWitheringAway.stages.NoLabel.label>
+  <!-- EN: NoDescription -->
+  <DreamWitheringAway.stages.NoLabel.description>NoDescription</DreamWitheringAway.stages.NoLabel.description>
+</LanguageData>

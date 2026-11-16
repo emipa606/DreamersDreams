@@ -163,14 +163,6 @@ internal static class DreamRequirementsChecker
                 }
 
                 break;
-
-            /*case HealthStatus.reachedSkillCap:
-                foreach (var skill in pawn.skills.skills)
-                {
-                    skill.LearningSaturatedToday;
-                    flag = false;
-                }
-                break;*/
         }
 
         if (invert)
@@ -355,7 +347,6 @@ internal static class DreamRequirementsChecker
             if (!req.HasBackstory(pawn, true))
             {
                 return false;
-                //Log.Message("21");
             }
         }
 
@@ -364,7 +355,6 @@ internal static class DreamRequirementsChecker
             if (!req.HasBackstory(pawn, false))
             {
                 return false;
-                //Log.Message("22");
             }
         }
 
@@ -373,7 +363,6 @@ internal static class DreamRequirementsChecker
             if (req.HasBackstory(pawn, false))
             {
                 break;
-                //Log.Message("23");
             }
         }
 
@@ -383,7 +372,6 @@ internal static class DreamRequirementsChecker
             if (!req.CheckStandingStatus(pawn, true))
             {
                 return false;
-                //Log.Message("31");
             }
         }
 
@@ -392,7 +380,6 @@ internal static class DreamRequirementsChecker
             if (!req.CheckStandingStatus(pawn, false))
             {
                 return false;
-                //Log.Message("32");
             }
         }
 
@@ -401,7 +388,6 @@ internal static class DreamRequirementsChecker
             if (req.CheckStandingStatus(pawn, false))
             {
                 break;
-                //Log.Message("33");
             }
         }
 
@@ -411,7 +397,6 @@ internal static class DreamRequirementsChecker
             if (!req.CheckBodyState(pawn, true))
             {
                 return false;
-                //Log.Message("41");
             }
         }
 
@@ -420,7 +405,6 @@ internal static class DreamRequirementsChecker
             if (!req.CheckBodyState(pawn, false))
             {
                 return false;
-                //Log.Message("42");
             }
         }
 
@@ -428,7 +412,6 @@ internal static class DreamRequirementsChecker
         {
             if (req.CheckBodyState(pawn, false))
             {
-                //Log.Message("43");
                 break;
             }
         }
@@ -439,7 +422,6 @@ internal static class DreamRequirementsChecker
             if (!req.CheckMindState(pawn, true))
             {
                 return false;
-                //Log.Message("51");
             }
         }
 
@@ -448,7 +430,6 @@ internal static class DreamRequirementsChecker
             if (!req.CheckMindState(pawn, false))
             {
                 return false;
-                //Log.Message("52");
             }
         }
 
@@ -456,7 +437,6 @@ internal static class DreamRequirementsChecker
         {
             if (req.CheckMindState(pawn, false))
             {
-                //Log.Message("53");
                 break;
             }
         }
@@ -488,7 +468,6 @@ internal static class DreamRequirementsChecker
 
         //mood
         return CheckMoodStatus(dream.minMood, dream.maxMood, pawn);
-        //Log.Message("6");
     }
 
     private static bool CheckForThought(ThoughtDef def, Pawn pawn, bool invert)

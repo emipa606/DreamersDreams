@@ -37,12 +37,10 @@ public class DD_Mod : Mod
         var midSettings = new Rect(topSettings.x, topSettings.y + listingTop.CurHeight, masterRect.width, 180f);
 
         listingTop.NewColumn(); // column 2
-        if (DD_Settings.isDreamingActive)
+        if (DD_Settings.isDreamingActive &&
+            listingTop.ButtonText("DrDr.DefaultSettings".Translate(DD_Settings.isDefaultSettings.ToString())))
         {
-            if (listingTop.ButtonText("DrDr.DefaultSettings".Translate(DD_Settings.isDefaultSettings.ToString())))
-            {
-                DD_Settings.isDefaultSettings = !DD_Settings.isDefaultSettings;
-            }
+            DD_Settings.isDefaultSettings = !DD_Settings.isDefaultSettings;
         }
 
         listingTop.NewColumn(); //column 3

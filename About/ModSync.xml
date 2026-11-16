@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>e4e292c1-81ee-4c22-85c1-e7fefc6496ec</ID>
   <ModName>Dreamer's Dreams (Continued)</ModName>
-  <Version>1.6.2</Version>
+  <Version>1.7.0</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
@@ -12,4 +12,3 @@
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
-

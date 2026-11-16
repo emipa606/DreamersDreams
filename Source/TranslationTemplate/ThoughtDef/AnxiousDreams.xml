@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Disturbed sleep (anxiety) -->
+  <DreamAnxiety.label>Disturbed sleep (anxiety)</DreamAnxiety.label>
+  <!-- EN: I was stressed and I could not stop thinking. Will those worries ever end? -->
+  <DreamAnxiety.description>I was stressed and I could not stop thinking. Will those worries ever end?</DreamAnxiety.description>
+  <!-- EN: NoLabel -->
+  <DreamAnxiety.stages.NoLabel.label>NoLabel</DreamAnxiety.stages.NoLabel.label>
+  <!-- EN: NoDescription -->
+  <DreamAnxiety.stages.NoLabel.description>NoDescription</DreamAnxiety.stages.NoLabel.description>
+</LanguageData>
